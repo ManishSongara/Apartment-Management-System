@@ -94,11 +94,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>apartDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="Admin Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Admin Login.Designer.vb">
+      <DependentUpon>Admin Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="first page.Designer.vb">
+      <DependentUpon>first page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="first page.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -116,16 +122,55 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pay eletricity.Designer.vb">
+      <DependentUpon>Pay eletricity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pay eletricity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenant Function.Designer.vb">
+      <DependentUpon>Tenant Function.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant Function.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenant Login.Designer.vb">
+      <DependentUpon>Tenant Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenant Registration.Designer.vb">
+      <DependentUpon>Tenant Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Admin Login.resx">
+      <DependentUpon>Admin Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="first page.resx">
+      <DependentUpon>first page.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pay eletricity.resx">
+      <DependentUpon>Pay eletricity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenant Function.resx">
+      <DependentUpon>Tenant Function.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenant Login.resx">
+      <DependentUpon>Tenant Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenant Registration.resx">
+      <DependentUpon>Tenant Registration.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
