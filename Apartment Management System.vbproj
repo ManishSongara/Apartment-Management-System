@@ -89,6 +89,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin Function.Designer.vb">
+      <DependentUpon>Admin Function.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Function.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="apartDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -99,6 +105,12 @@
     </Compile>
     <Compile Include="Admin Login.Designer.vb">
       <DependentUpon>Admin Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Event Hall.Designer.vb">
+      <DependentUpon>Event Hall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Event Hall.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="first page.Designer.vb">
@@ -128,6 +140,12 @@
     <Compile Include="Pay eletricity.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Problem Report.Designer.vb">
+      <DependentUpon>Problem Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Problem Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tenant Function.Designer.vb">
       <DependentUpon>Tenant Function.vb</DependentUpon>
     </Compile>
@@ -148,8 +166,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin Function.resx">
+      <DependentUpon>Admin Function.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin Login.resx">
       <DependentUpon>Admin Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event Hall.resx">
+      <DependentUpon>Event Hall.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="first page.resx">
       <DependentUpon>first page.vb</DependentUpon>
@@ -162,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pay eletricity.resx">
       <DependentUpon>Pay eletricity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problem Report.resx">
+      <DependentUpon>Problem Report.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tenant Function.resx">
       <DependentUpon>Tenant Function.vb</DependentUpon>

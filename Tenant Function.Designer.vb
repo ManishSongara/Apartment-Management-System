@@ -28,9 +28,9 @@ Partial Class Tenant_Function
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -64,7 +64,7 @@ Partial Class Tenant_Function
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(89, 129)
+        Me.Button1.Location = New System.Drawing.Point(89, 284)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(181, 55)
         Me.Button1.TabIndex = 0
@@ -74,7 +74,7 @@ Partial Class Tenant_Function
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button2.Location = New System.Drawing.Point(89, 231)
+        Me.Button2.Location = New System.Drawing.Point(89, 408)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(181, 55)
         Me.Button2.TabIndex = 2
@@ -84,22 +84,12 @@ Partial Class Tenant_Function
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button3.Location = New System.Drawing.Point(89, 329)
+        Me.Button3.Location = New System.Drawing.Point(89, 147)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(181, 55)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Book Cab"
+        Me.Button3.Text = "Flat Rent"
         Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button4.Location = New System.Drawing.Point(89, 431)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(181, 55)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Ambulance Book"
-        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -114,21 +104,31 @@ Partial Class Tenant_Function
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button6.Location = New System.Drawing.Point(488, 381)
+        Me.Button6.Location = New System.Drawing.Point(462, 381)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(151, 51)
         Me.Button6.TabIndex = 6
         Me.Button6.Text = "Back"
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Button7.Location = New System.Drawing.Point(662, 381)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(151, 51)
+        Me.Button7.TabIndex = 7
+        Me.Button7.Text = "Logout"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Tenant_Function
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(910, 758)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -148,7 +148,7 @@ Partial Class Tenant_Function
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class
