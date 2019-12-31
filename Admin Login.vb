@@ -4,7 +4,7 @@ Public Class Form1
     Dim cmd As New SqlCommand
     Dim con As New SqlConnection
     Dim rd As SqlDataReader
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Login.Click
         con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\apart.mdf;Integrated Security=True"
         cmd.Connection = con
         cmd.CommandText = "Select * from [login] where UserName='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'"
@@ -29,7 +29,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles UserName.Click
 
     End Sub
 

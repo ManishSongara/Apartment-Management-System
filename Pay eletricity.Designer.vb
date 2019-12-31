@@ -26,7 +26,7 @@ Partial Class Pay_eletricity
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Date1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -87,14 +87,14 @@ Partial Class Pay_eletricity
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Block Name"
         '
-        'Label5
+        'Date1
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(77, 336)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(38, 17)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Date"
+        Me.Date1.AutoSize = True
+        Me.Date1.Location = New System.Drawing.Point(77, 336)
+        Me.Date1.Name = "Date1"
+        Me.Date1.Size = New System.Drawing.Size(38, 17)
+        Me.Date1.TabIndex = 4
+        Me.Date1.Text = "Date"
         '
         'Label6
         '
@@ -296,7 +296,7 @@ Partial Class Pay_eletricity
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Date1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -312,7 +312,7 @@ Partial Class Pay_eletricity
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents Date1 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label

@@ -24,8 +24,8 @@ Partial Class Booking_Info
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.View = New System.Windows.Forms.Button()
+        Me.Back = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -53,23 +53,23 @@ Partial Class Booking_Info
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Hall Booking"
         '
-        'Button1
+        'View
         '
-        Me.Button1.Location = New System.Drawing.Point(62, 335)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(121, 39)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "View"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.View.Location = New System.Drawing.Point(62, 335)
+        Me.View.Name = "View"
+        Me.View.Size = New System.Drawing.Size(121, 39)
+        Me.View.TabIndex = 1
+        Me.View.Text = "View"
+        Me.View.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Back
         '
-        Me.Button2.Location = New System.Drawing.Point(62, 407)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(121, 39)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Back"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Back.Location = New System.Drawing.Point(62, 407)
+        Me.Back.Name = "Back"
+        Me.Back.Size = New System.Drawing.Size(121, 39)
+        Me.Back.TabIndex = 2
+        Me.Back.Text = "Back"
+        Me.Back.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
@@ -112,8 +112,8 @@ Partial Class Booking_Info
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(846, 567)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Back)
+        Me.Controls.Add(Me.View)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Booking_Info"
         Me.Text = "Booking_Info"
@@ -126,8 +126,8 @@ Partial Class Booking_Info
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents View As Button
+    Friend WithEvents Back As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn

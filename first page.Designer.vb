@@ -23,44 +23,44 @@ Partial Class first_page
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(first_page))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.AdminLogin = New System.Windows.Forms.Button()
+        Me.TenantLogin = New System.Windows.Forms.Button()
+        Me.ApartmentDetails = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
-        'Button1
+        'AdminLogin
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(652, 121)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(168, 50)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Admin Login"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.AdminLogin.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.AdminLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AdminLogin.Location = New System.Drawing.Point(652, 121)
+        Me.AdminLogin.Name = "AdminLogin"
+        Me.AdminLogin.Size = New System.Drawing.Size(168, 50)
+        Me.AdminLogin.TabIndex = 0
+        Me.AdminLogin.Text = "Admin Login"
+        Me.AdminLogin.UseVisualStyleBackColor = False
         '
-        'Button2
+        'TenantLogin
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(652, 222)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(168, 47)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Tenant Login"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.TenantLogin.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.TenantLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TenantLogin.Location = New System.Drawing.Point(652, 222)
+        Me.TenantLogin.Name = "TenantLogin"
+        Me.TenantLogin.Size = New System.Drawing.Size(168, 47)
+        Me.TenantLogin.TabIndex = 1
+        Me.TenantLogin.Text = "Tenant Login"
+        Me.TenantLogin.UseVisualStyleBackColor = False
         '
-        'Button3
+        'ApartmentDetails
         '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(652, 331)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(168, 51)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Apartment Details"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.ApartmentDetails.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ApartmentDetails.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ApartmentDetails.Location = New System.Drawing.Point(652, 331)
+        Me.ApartmentDetails.Name = "ApartmentDetails"
+        Me.ApartmentDetails.Size = New System.Drawing.Size(168, 51)
+        Me.ApartmentDetails.TabIndex = 2
+        Me.ApartmentDetails.Text = "Apartment Details"
+        Me.ApartmentDetails.UseVisualStyleBackColor = False
         '
         'Panel1
         '
@@ -78,17 +78,17 @@ Partial Class first_page
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(893, 583)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ApartmentDetails)
+        Me.Controls.Add(Me.TenantLogin)
+        Me.Controls.Add(Me.AdminLogin)
         Me.Name = "first_page"
         Me.Text = "first_page"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents AdminLogin As Button
+    Friend WithEvents TenantLogin As Button
+    Friend WithEvents ApartmentDetails As Button
     Friend WithEvents Panel1 As Panel
 End Class

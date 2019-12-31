@@ -23,12 +23,12 @@ Partial Class E_Bill_Info
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Back = New System.Windows.Forms.Button()
+        Me.Search = New System.Windows.Forms.Button()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.FlatNumber = New System.Windows.Forms.Label()
+        Me.BlockName = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -41,42 +41,34 @@ Partial Class E_Bill_Info
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.Back)
+        Me.Panel1.Controls.Add(Me.Search)
         Me.Panel1.Controls.Add(Me.ComboBox2)
         Me.Panel1.Controls.Add(Me.ComboBox1)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.FlatNumber)
+        Me.Panel1.Controls.Add(Me.BlockName)
         Me.Panel1.Location = New System.Drawing.Point(40, 50)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(681, 159)
         Me.Panel1.TabIndex = 0
         '
-        'Label1
+        'Back
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(79, 34)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Block Name"
+        Me.Back.Location = New System.Drawing.Point(530, 93)
+        Me.Back.Name = "Back"
+        Me.Back.Size = New System.Drawing.Size(107, 40)
+        Me.Back.TabIndex = 5
+        Me.Back.Text = "Back"
+        Me.Back.UseVisualStyleBackColor = True
         '
-        'Label2
+        'Search
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(79, 102)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(85, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Flat Number"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(237, 34)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(180, 24)
-        Me.ComboBox1.TabIndex = 2
+        Me.Search.Location = New System.Drawing.Point(530, 22)
+        Me.Search.Name = "Search"
+        Me.Search.Size = New System.Drawing.Size(107, 46)
+        Me.Search.TabIndex = 4
+        Me.Search.Text = "Search"
+        Me.Search.UseVisualStyleBackColor = True
         '
         'ComboBox2
         '
@@ -86,23 +78,31 @@ Partial Class E_Bill_Info
         Me.ComboBox2.Size = New System.Drawing.Size(180, 24)
         Me.ComboBox2.TabIndex = 3
         '
-        'Button1
+        'ComboBox1
         '
-        Me.Button1.Location = New System.Drawing.Point(530, 22)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 46)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Search"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(237, 34)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(180, 24)
+        Me.ComboBox1.TabIndex = 2
         '
-        'Button2
+        'FlatNumber
         '
-        Me.Button2.Location = New System.Drawing.Point(530, 93)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(107, 40)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Back"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.FlatNumber.AutoSize = True
+        Me.FlatNumber.Location = New System.Drawing.Point(79, 102)
+        Me.FlatNumber.Name = "FlatNumber"
+        Me.FlatNumber.Size = New System.Drawing.Size(85, 17)
+        Me.FlatNumber.TabIndex = 1
+        Me.FlatNumber.Text = "Flat Number"
+        '
+        'BlockName
+        '
+        Me.BlockName.AutoSize = True
+        Me.BlockName.Location = New System.Drawing.Point(79, 34)
+        Me.BlockName.Name = "BlockName"
+        Me.BlockName.Size = New System.Drawing.Size(83, 17)
+        Me.BlockName.TabIndex = 0
+        Me.BlockName.Text = "Block Name"
         '
         'DataGridView1
         '
@@ -156,12 +156,12 @@ Partial Class E_Bill_Info
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Back As Button
+    Friend WithEvents Search As Button
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents FlatNumber As Label
+    Friend WithEvents BlockName As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn

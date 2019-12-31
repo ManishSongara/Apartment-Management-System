@@ -23,27 +23,27 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Login = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Reset = New System.Windows.Forms.Button()
+        Me.UserName = New System.Windows.Forms.Label()
+        Me.Password = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
-        'Button1
+        'Login
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(863, 253)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(108, 36)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Login.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Login.Location = New System.Drawing.Point(863, 253)
+        Me.Login.Name = "Login"
+        Me.Login.Size = New System.Drawing.Size(108, 36)
+        Me.Login.TabIndex = 2
+        Me.Login.Text = "Login"
+        Me.Login.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
@@ -61,36 +61,36 @@ Partial Class Form1
         Me.TextBox2.Size = New System.Drawing.Size(263, 25)
         Me.TextBox2.TabIndex = 1
         '
-        'Button2
+        'Reset
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(1011, 253)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(115, 36)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Reset"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Reset.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Reset.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Reset.Location = New System.Drawing.Point(1011, 253)
+        Me.Reset.Name = "Reset"
+        Me.Reset.Size = New System.Drawing.Size(115, 36)
+        Me.Reset.TabIndex = 3
+        Me.Reset.Text = "Reset"
+        Me.Reset.UseVisualStyleBackColor = False
         '
-        'Label1
+        'UserName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(732, 120)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 25)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "User Name"
+        Me.UserName.AutoSize = True
+        Me.UserName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserName.Location = New System.Drawing.Point(732, 120)
+        Me.UserName.Name = "UserName"
+        Me.UserName.Size = New System.Drawing.Size(110, 25)
+        Me.UserName.TabIndex = 4
+        Me.UserName.Text = "User Name"
         '
-        'Label2
+        'Password
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(732, 184)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(98, 25)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Password"
+        Me.Password.AutoSize = True
+        Me.Password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Password.Location = New System.Drawing.Point(732, 184)
+        Me.Password.Name = "Password"
+        Me.Password.Size = New System.Drawing.Size(98, 25)
+        Me.Password.TabIndex = 5
+        Me.Password.Text = "Password"
         '
         'Label3
         '
@@ -128,12 +128,12 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Password)
+        Me.Controls.Add(Me.UserName)
+        Me.Controls.Add(Me.Reset)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Login)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -141,12 +141,12 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Login As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents Reset As Button
+    Friend WithEvents UserName As Label
+    Friend WithEvents Password As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel

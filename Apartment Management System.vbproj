@@ -137,6 +137,12 @@
     <Compile Include="first page.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Flat Rent.Designer.vb">
+      <DependentUpon>Flat Rent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Flat Rent.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="House Entry.Designer.vb">
       <DependentUpon>House Entry.vb</DependentUpon>
     </Compile>

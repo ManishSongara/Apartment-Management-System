@@ -22,77 +22,77 @@ Partial Class Admin_Function
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.HouseEntry = New System.Windows.Forms.Button()
+        Me.RentInfo = New System.Windows.Forms.Button()
+        Me.EBillInfo = New System.Windows.Forms.Button()
+        Me.BookingInfo = New System.Windows.Forms.Button()
+        Me.AlertNotification = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'HouseEntry
         '
-        Me.Button1.Location = New System.Drawing.Point(100, 94)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(173, 47)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "House Entry"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.HouseEntry.Location = New System.Drawing.Point(100, 94)
+        Me.HouseEntry.Name = "HouseEntry"
+        Me.HouseEntry.Size = New System.Drawing.Size(173, 47)
+        Me.HouseEntry.TabIndex = 0
+        Me.HouseEntry.Text = "House Entry"
+        Me.HouseEntry.UseVisualStyleBackColor = True
         '
-        'Button2
+        'RentInfo
         '
-        Me.Button2.Location = New System.Drawing.Point(100, 210)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(173, 47)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Rent Info"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.RentInfo.Location = New System.Drawing.Point(100, 210)
+        Me.RentInfo.Name = "RentInfo"
+        Me.RentInfo.Size = New System.Drawing.Size(173, 47)
+        Me.RentInfo.TabIndex = 1
+        Me.RentInfo.Text = "Rent Info"
+        Me.RentInfo.UseVisualStyleBackColor = True
         '
-        'Button3
+        'EBillInfo
         '
-        Me.Button3.Location = New System.Drawing.Point(100, 313)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(173, 47)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "E-Bill Info"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.EBillInfo.Location = New System.Drawing.Point(100, 313)
+        Me.EBillInfo.Name = "EBillInfo"
+        Me.EBillInfo.Size = New System.Drawing.Size(173, 47)
+        Me.EBillInfo.TabIndex = 2
+        Me.EBillInfo.Text = "E-Bill Info"
+        Me.EBillInfo.UseVisualStyleBackColor = True
         '
-        'Button4
+        'BookingInfo
         '
-        Me.Button4.Location = New System.Drawing.Point(100, 421)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(173, 47)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Booking Info"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.BookingInfo.Location = New System.Drawing.Point(100, 421)
+        Me.BookingInfo.Name = "BookingInfo"
+        Me.BookingInfo.Size = New System.Drawing.Size(173, 47)
+        Me.BookingInfo.TabIndex = 3
+        Me.BookingInfo.Text = "Booking Info"
+        Me.BookingInfo.UseVisualStyleBackColor = True
         '
-        'Button5
+        'AlertNotification
         '
-        Me.Button5.Location = New System.Drawing.Point(100, 541)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(173, 47)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Alert Notification"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.AlertNotification.Location = New System.Drawing.Point(100, 541)
+        Me.AlertNotification.Name = "AlertNotification"
+        Me.AlertNotification.Size = New System.Drawing.Size(173, 47)
+        Me.AlertNotification.TabIndex = 4
+        Me.AlertNotification.Text = "Alert Notification"
+        Me.AlertNotification.UseVisualStyleBackColor = True
         '
         'Admin_Function
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(924, 694)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.AlertNotification)
+        Me.Controls.Add(Me.BookingInfo)
+        Me.Controls.Add(Me.EBillInfo)
+        Me.Controls.Add(Me.RentInfo)
+        Me.Controls.Add(Me.HouseEntry)
         Me.Name = "Admin_Function"
         Me.Text = "Admin_Function"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
+    Friend WithEvents HouseEntry As Button
+    Friend WithEvents RentInfo As Button
+    Friend WithEvents EBillInfo As Button
+    Friend WithEvents BookingInfo As Button
+    Friend WithEvents AlertNotification As Button
 End Class
