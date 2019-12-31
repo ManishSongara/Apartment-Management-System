@@ -12,7 +12,7 @@ Public Class Form1
         rd = cmd.ExecuteReader
         With rd
             If .Read Then
-                MsgBox("done")
+                MsgBox("              Successfully Login")
                 TextBox1.Clear()
                 TextBox2.Clear()
             Else
