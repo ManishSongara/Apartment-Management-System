@@ -23,7 +23,7 @@ Partial Class Booking_Info
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.HallBooking = New System.Windows.Forms.RadioButton()
         Me.View = New System.Windows.Forms.Button()
         Me.Back = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -32,28 +32,28 @@ Partial Class Booking_Info
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.RadioButton1)
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.HallBooking)
         Me.Panel1.Location = New System.Drawing.Point(49, 240)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(150, 56)
         Me.Panel1.TabIndex = 0
         '
-        'Label1
+        'HallBooking
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(47, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(87, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Hall Booking"
+        Me.HallBooking.AutoSize = True
+        Me.HallBooking.Location = New System.Drawing.Point(26, 17)
+        Me.HallBooking.Name = "HallBooking"
+        Me.HallBooking.Size = New System.Drawing.Size(108, 21)
+        Me.HallBooking.TabIndex = 1
+        Me.HallBooking.TabStop = True
+        Me.HallBooking.Text = "Hall Booking"
+        Me.HallBooking.UseVisualStyleBackColor = True
         '
         'View
         '
@@ -119,17 +119,6 @@ Partial Class Booking_Info
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 125
         '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(30, 4)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(115, 21)
-        Me.RadioButton1.TabIndex = 1
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "RadioButton1"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
         'Booking_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -149,7 +138,6 @@ Partial Class Booking_Info
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
     Friend WithEvents View As Button
     Friend WithEvents Back As Button
     Friend WithEvents DataGridView1 As DataGridView
@@ -158,5 +146,5 @@ Partial Class Booking_Info
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents HallBooking As RadioButton
 End Class

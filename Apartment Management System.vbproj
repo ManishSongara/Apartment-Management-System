@@ -223,6 +223,9 @@
     <EmbeddedResource Include="first page.resx">
       <DependentUpon>first page.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Flat Rent.resx">
+      <DependentUpon>Flat Rent.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="House Entry.resx">
       <DependentUpon>House Entry.vb</DependentUpon>
     </EmbeddedResource>

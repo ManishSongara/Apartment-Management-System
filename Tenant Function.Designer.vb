@@ -25,12 +25,12 @@ Partial Class Tenant_Function
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.PayElectricity = New System.Windows.Forms.Button()
+        Me.BookEventHall = New System.Windows.Forms.Button()
+        Me.FlatRent = New System.Windows.Forms.Button()
+        Me.ProblemReport = New System.Windows.Forms.Button()
+        Me.Back = New System.Windows.Forms.Button()
+        Me.Logout = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -61,77 +61,77 @@ Partial Class Tenant_Function
         Me.MaskedTextBox1.Size = New System.Drawing.Size(132, 27)
         Me.MaskedTextBox1.TabIndex = 2
         '
-        'Button1
+        'PayElectricity
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(89, 284)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(181, 55)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Pay Electricity"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.PayElectricity.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.PayElectricity.Location = New System.Drawing.Point(89, 284)
+        Me.PayElectricity.Name = "PayElectricity"
+        Me.PayElectricity.Size = New System.Drawing.Size(181, 55)
+        Me.PayElectricity.TabIndex = 1
+        Me.PayElectricity.Text = "Pay Electricity"
+        Me.PayElectricity.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BookEventHall
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button2.Location = New System.Drawing.Point(89, 408)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(181, 55)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Book Event Hall"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BookEventHall.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.BookEventHall.Location = New System.Drawing.Point(89, 408)
+        Me.BookEventHall.Name = "BookEventHall"
+        Me.BookEventHall.Size = New System.Drawing.Size(181, 55)
+        Me.BookEventHall.TabIndex = 2
+        Me.BookEventHall.Text = "Book Event Hall"
+        Me.BookEventHall.UseVisualStyleBackColor = True
         '
-        'Button3
+        'FlatRent
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button3.Location = New System.Drawing.Point(89, 147)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(181, 55)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Flat Rent"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.FlatRent.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.FlatRent.Location = New System.Drawing.Point(89, 147)
+        Me.FlatRent.Name = "FlatRent"
+        Me.FlatRent.Size = New System.Drawing.Size(181, 55)
+        Me.FlatRent.TabIndex = 0
+        Me.FlatRent.Text = "Flat Rent"
+        Me.FlatRent.UseVisualStyleBackColor = True
         '
-        'Button5
+        'ProblemReport
         '
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button5.Location = New System.Drawing.Point(89, 530)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(181, 55)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "Problem Report"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.ProblemReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.ProblemReport.Location = New System.Drawing.Point(89, 530)
+        Me.ProblemReport.Name = "ProblemReport"
+        Me.ProblemReport.Size = New System.Drawing.Size(181, 55)
+        Me.ProblemReport.TabIndex = 3
+        Me.ProblemReport.Text = "Problem Report"
+        Me.ProblemReport.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Back
         '
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button6.Location = New System.Drawing.Point(462, 381)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(151, 51)
-        Me.Button6.TabIndex = 6
-        Me.Button6.Text = "Back"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Back.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Back.Location = New System.Drawing.Point(462, 381)
+        Me.Back.Name = "Back"
+        Me.Back.Size = New System.Drawing.Size(151, 51)
+        Me.Back.TabIndex = 4
+        Me.Back.Text = "Back"
+        Me.Back.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Logout
         '
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button7.Location = New System.Drawing.Point(662, 381)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(151, 51)
-        Me.Button7.TabIndex = 7
-        Me.Button7.Text = "Logout"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Logout.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Logout.Location = New System.Drawing.Point(662, 381)
+        Me.Logout.Name = "Logout"
+        Me.Logout.Size = New System.Drawing.Size(151, 51)
+        Me.Logout.TabIndex = 5
+        Me.Logout.Text = "Logout"
+        Me.Logout.UseVisualStyleBackColor = True
         '
         'Tenant_Function
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(910, 758)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Logout)
+        Me.Controls.Add(Me.Back)
+        Me.Controls.Add(Me.ProblemReport)
+        Me.Controls.Add(Me.FlatRent)
+        Me.Controls.Add(Me.BookEventHall)
+        Me.Controls.Add(Me.PayElectricity)
         Me.Controls.Add(Me.MaskedTextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -145,10 +145,10 @@ Partial Class Tenant_Function
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
+    Friend WithEvents PayElectricity As Button
+    Friend WithEvents BookEventHall As Button
+    Friend WithEvents FlatRent As Button
+    Friend WithEvents ProblemReport As Button
+    Friend WithEvents Back As Button
+    Friend WithEvents Logout As Button
 End Class

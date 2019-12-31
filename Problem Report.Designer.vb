@@ -22,86 +22,86 @@ Partial Class Problem_Report
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Logout = New System.Windows.Forms.Button()
+        Me.Back = New System.Windows.Forms.Button()
+        Me.TenantID = New System.Windows.Forms.Label()
+        Me.Name = New System.Windows.Forms.Label()
+        Me.FlatNumber = New System.Windows.Forms.Label()
+        Me.Complaint = New System.Windows.Forms.Label()
+        Me.Date2 = New System.Windows.Forms.Label()
         Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
         Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Submit = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
-        'Button7
+        'Logout
         '
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button7.Location = New System.Drawing.Point(696, 131)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(122, 37)
-        Me.Button7.TabIndex = 9
-        Me.Button7.Text = "Logout"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Logout.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Logout.Location = New System.Drawing.Point(696, 131)
+        Me.Logout.Name = "Logout"
+        Me.Logout.Size = New System.Drawing.Size(122, 37)
+        Me.Logout.TabIndex = 17
+        Me.Logout.Text = "Logout"
+        Me.Logout.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Back
         '
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button6.Location = New System.Drawing.Point(496, 131)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(122, 37)
-        Me.Button6.TabIndex = 8
-        Me.Button6.Text = "Back"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Back.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Back.Location = New System.Drawing.Point(496, 131)
+        Me.Back.Name = "Back"
+        Me.Back.Size = New System.Drawing.Size(122, 37)
+        Me.Back.TabIndex = 16
+        Me.Back.Text = "Back"
+        Me.Back.UseVisualStyleBackColor = True
         '
-        'Label1
+        'TenantID
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(61, 131)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(70, 17)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Tenant ID"
+        Me.TenantID.AutoSize = True
+        Me.TenantID.Location = New System.Drawing.Point(61, 131)
+        Me.TenantID.Name = "TenantID"
+        Me.TenantID.Size = New System.Drawing.Size(70, 17)
+        Me.TenantID.TabIndex = 0
+        Me.TenantID.Text = "Tenant ID"
         '
-        'Label2
+        'Name
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(61, 198)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(45, 17)
-        Me.Label2.TabIndex = 11
-        Me.Label2.Text = "Name"
+        Me.Name.AutoSize = True
+        Me.Name.Location = New System.Drawing.Point(61, 198)
+        Me.Name.Name = "Name"
+        Me.Name.Size = New System.Drawing.Size(45, 17)
+        Me.Name.TabIndex = 1
+        Me.Name.Text = "Name"
         '
-        'Label3
+        'FlatNumber
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(61, 247)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(85, 17)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "Flat Number"
+        Me.FlatNumber.AutoSize = True
+        Me.FlatNumber.Location = New System.Drawing.Point(61, 247)
+        Me.FlatNumber.Name = "FlatNumber"
+        Me.FlatNumber.Size = New System.Drawing.Size(85, 17)
+        Me.FlatNumber.TabIndex = 2
+        Me.FlatNumber.Text = "Flat Number"
         '
-        'Label4
+        'Complaint
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(61, 298)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(70, 17)
-        Me.Label4.TabIndex = 13
-        Me.Label4.Text = "Complaint"
+        Me.Complaint.AutoSize = True
+        Me.Complaint.Location = New System.Drawing.Point(61, 298)
+        Me.Complaint.Name = "Complaint"
+        Me.Complaint.Size = New System.Drawing.Size(70, 17)
+        Me.Complaint.TabIndex = 3
+        Me.Complaint.Text = "Complaint"
         '
-        'Label5
+        'Date2
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(61, 352)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(38, 17)
-        Me.Label5.TabIndex = 14
-        Me.Label5.Text = "Date"
+        Me.Date2.AutoSize = True
+        Me.Date2.Location = New System.Drawing.Point(61, 352)
+        Me.Date2.Name = "Date2"
+        Me.Date2.Size = New System.Drawing.Size(38, 17)
+        Me.Date2.TabIndex = 4
+        Me.Date2.Text = "Date"
         '
         'MaskedTextBox1
         '
@@ -137,45 +137,44 @@ Partial Class Problem_Report
         Me.MaskedTextBox4.Size = New System.Drawing.Size(183, 22)
         Me.MaskedTextBox4.TabIndex = 19
         '
-        'ListBox1
+        'Submit
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Items.AddRange(New Object() {"Insufficiency of Water", "Road Damage", "Parking Camera Not Working"})
-        Me.ListBox1.Location = New System.Drawing.Point(191, 298)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(192, 36)
-        Me.ListBox1.TabIndex = 20
+        Me.Submit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Submit.Location = New System.Drawing.Point(585, 488)
+        Me.Submit.Name = "Submit"
+        Me.Submit.Size = New System.Drawing.Size(127, 42)
+        Me.Submit.TabIndex = 15
+        Me.Submit.Text = "Submit"
+        Me.Submit.UseVisualStyleBackColor = True
         '
-        'Button1
+        'ComboBox1
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(585, 488)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(127, 42)
-        Me.Button1.TabIndex = 21
-        Me.Button1.Text = "Submit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Insufficiency of Water", "Road Damage", "Parking Camera Not Working"})
+        Me.ComboBox1.Location = New System.Drawing.Point(191, 295)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(183, 24)
+        Me.ComboBox1.TabIndex = 22
         '
         'Problem_Report
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(902, 642)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.Submit)
         Me.Controls.Add(Me.MaskedTextBox4)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.MaskedTextBox3)
         Me.Controls.Add(Me.MaskedTextBox2)
         Me.Controls.Add(Me.MaskedTextBox1)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Date2)
+        Me.Controls.Add(Me.Complaint)
+        Me.Controls.Add(Me.FlatNumber)
+        Me.Controls.Add(Me.Name)
+        Me.Controls.Add(Me.TenantID)
+        Me.Controls.Add(Me.Logout)
+        Me.Controls.Add(Me.Back)
         Me.Name = "Problem_Report"
         Me.Text = "Problem_Report"
         Me.ResumeLayout(False)
@@ -183,18 +182,18 @@ Partial Class Problem_Report
 
     End Sub
 
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents Logout As Button
+    Friend WithEvents Back As Button
+    Friend WithEvents TenantID As Label
+    Friend WithEvents Name As Label
+    Friend WithEvents FlatNumber As Label
+    Friend WithEvents Complaint As Label
+    Friend WithEvents Date2 As Label
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents MaskedTextBox2 As MaskedTextBox
     Friend WithEvents MaskedTextBox3 As MaskedTextBox
     Friend WithEvents MonthCalendar1 As MonthCalendar
     Friend WithEvents MaskedTextBox4 As MaskedTextBox
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Submit As Button
+    Friend WithEvents ComboBox1 As ComboBox
 End Class

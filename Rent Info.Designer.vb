@@ -23,8 +23,8 @@ Partial Class Rent_Info
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PaidPartially = New System.Windows.Forms.RadioButton()
+        Me.PaidFully = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -40,30 +40,36 @@ Partial Class Rent_Info
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.PaidPartially)
+        Me.Panel1.Controls.Add(Me.PaidFully)
         Me.Panel1.Location = New System.Drawing.Point(47, 38)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(139, 116)
         Me.Panel1.TabIndex = 0
         '
-        'Label1
+        'PaidPartially
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(46, 27)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(69, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Paid Fully"
+        Me.PaidPartially.AutoSize = True
+        Me.PaidPartially.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.PaidPartially.Location = New System.Drawing.Point(13, 67)
+        Me.PaidPartially.Name = "PaidPartially"
+        Me.PaidPartially.Size = New System.Drawing.Size(111, 21)
+        Me.PaidPartially.TabIndex = 24
+        Me.PaidPartially.TabStop = True
+        Me.PaidPartially.Text = "Paid Partially"
+        Me.PaidPartially.UseVisualStyleBackColor = True
         '
-        'Label2
+        'PaidFully
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(46, 71)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(90, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Paid Partially"
+        Me.PaidFully.AutoSize = True
+        Me.PaidFully.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.PaidFully.Location = New System.Drawing.Point(13, 18)
+        Me.PaidFully.Name = "PaidFully"
+        Me.PaidFully.Size = New System.Drawing.Size(90, 21)
+        Me.PaidFully.TabIndex = 23
+        Me.PaidFully.TabStop = True
+        Me.PaidFully.Text = "Paid Fully"
+        Me.PaidFully.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -142,8 +148,6 @@ Partial Class Rent_Info
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents DataGridView1 As DataGridView
@@ -153,4 +157,6 @@ Partial Class Rent_Info
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents PaidFully As RadioButton
+    Friend WithEvents PaidPartially As RadioButton
 End Class

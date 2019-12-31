@@ -22,14 +22,14 @@ Partial Class Tenant_Registration
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TenantName = New System.Windows.Forms.Label()
+        Me.TenantID = New System.Windows.Forms.Label()
+        Me.Password = New System.Windows.Forms.Label()
+        Me.Email = New System.Windows.Forms.Label()
+        Me.Phone = New System.Windows.Forms.Label()
+        Me.Block = New System.Windows.Forms.Label()
+        Me.FlatNmber = New System.Windows.Forms.Label()
+        Me.FlatType = New System.Windows.Forms.Label()
         Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
@@ -38,89 +38,89 @@ Partial Class Tenant_Registration
         Me.MaskedTextBox6 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox7 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox8 = New System.Windows.Forms.MaskedTextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Submit = New System.Windows.Forms.Button()
+        Me.Reset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'TenantName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(93, 134)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(109, 20)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Tenant Name"
+        Me.TenantName.AutoSize = True
+        Me.TenantName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TenantName.Location = New System.Drawing.Point(93, 134)
+        Me.TenantName.Name = "TenantName"
+        Me.TenantName.Size = New System.Drawing.Size(109, 20)
+        Me.TenantName.TabIndex = 0
+        Me.TenantName.Text = "Tenant Name"
         '
-        'Label2
+        'TenantID
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(93, 183)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(82, 20)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Tenant ID"
+        Me.TenantID.AutoSize = True
+        Me.TenantID.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TenantID.Location = New System.Drawing.Point(93, 183)
+        Me.TenantID.Name = "TenantID"
+        Me.TenantID.Size = New System.Drawing.Size(82, 20)
+        Me.TenantID.TabIndex = 1
+        Me.TenantID.Text = "Tenant ID"
         '
-        'Label3
+        'Password
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(94, 225)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(83, 20)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Password"
+        Me.Password.AutoSize = True
+        Me.Password.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Password.Location = New System.Drawing.Point(94, 225)
+        Me.Password.Name = "Password"
+        Me.Password.Size = New System.Drawing.Size(83, 20)
+        Me.Password.TabIndex = 2
+        Me.Password.Text = "Password"
         '
-        'Label4
+        'Email
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(94, 272)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(57, 20)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "E-mail"
+        Me.Email.AutoSize = True
+        Me.Email.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Email.Location = New System.Drawing.Point(94, 272)
+        Me.Email.Name = "Email"
+        Me.Email.Size = New System.Drawing.Size(57, 20)
+        Me.Email.TabIndex = 3
+        Me.Email.Text = "E-mail"
         '
-        'Label5
+        'Phone
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(94, 313)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 20)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Phone"
+        Me.Phone.AutoSize = True
+        Me.Phone.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Phone.Location = New System.Drawing.Point(94, 313)
+        Me.Phone.Name = "Phone"
+        Me.Phone.Size = New System.Drawing.Size(56, 20)
+        Me.Phone.TabIndex = 4
+        Me.Phone.Text = "Phone"
         '
-        'Label6
+        'Block
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(94, 359)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(51, 20)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Block"
+        Me.Block.AutoSize = True
+        Me.Block.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Block.Location = New System.Drawing.Point(94, 359)
+        Me.Block.Name = "Block"
+        Me.Block.Size = New System.Drawing.Size(51, 20)
+        Me.Block.TabIndex = 5
+        Me.Block.Text = "Block"
         '
-        'Label7
+        'FlatNmber
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(94, 402)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(92, 20)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "Flat Nmber"
+        Me.FlatNmber.AutoSize = True
+        Me.FlatNmber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FlatNmber.Location = New System.Drawing.Point(94, 402)
+        Me.FlatNmber.Name = "FlatNmber"
+        Me.FlatNmber.Size = New System.Drawing.Size(92, 20)
+        Me.FlatNmber.TabIndex = 6
+        Me.FlatNmber.Text = "Flat Nmber"
         '
-        'Label8
+        'FlatType
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(94, 445)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(78, 20)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "Flat Type"
+        Me.FlatType.AutoSize = True
+        Me.FlatType.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FlatType.Location = New System.Drawing.Point(94, 445)
+        Me.FlatType.Name = "FlatType"
+        Me.FlatType.Size = New System.Drawing.Size(78, 20)
+        Me.FlatType.TabIndex = 7
+        Me.FlatType.Text = "Flat Type"
         '
         'MaskedTextBox1
         '
@@ -186,31 +186,31 @@ Partial Class Tenant_Registration
         Me.MaskedTextBox8.Size = New System.Drawing.Size(157, 27)
         Me.MaskedTextBox8.TabIndex = 15
         '
-        'Button1
+        'Submit
         '
-        Me.Button1.Location = New System.Drawing.Point(162, 526)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(119, 38)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Submit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Submit.Location = New System.Drawing.Point(162, 526)
+        Me.Submit.Name = "Submit"
+        Me.Submit.Size = New System.Drawing.Size(119, 38)
+        Me.Submit.TabIndex = 16
+        Me.Submit.Text = "Submit"
+        Me.Submit.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Reset
         '
-        Me.Button2.Location = New System.Drawing.Point(309, 526)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(119, 38)
-        Me.Button2.TabIndex = 17
-        Me.Button2.Text = "Reset"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Reset.Location = New System.Drawing.Point(309, 526)
+        Me.Reset.Name = "Reset"
+        Me.Reset.Size = New System.Drawing.Size(119, 38)
+        Me.Reset.TabIndex = 17
+        Me.Reset.Text = "Reset"
+        Me.Reset.UseVisualStyleBackColor = True
         '
         'Tenant_Registration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(892, 619)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Reset)
+        Me.Controls.Add(Me.Submit)
         Me.Controls.Add(Me.MaskedTextBox8)
         Me.Controls.Add(Me.MaskedTextBox7)
         Me.Controls.Add(Me.MaskedTextBox6)
@@ -219,14 +219,14 @@ Partial Class Tenant_Registration
         Me.Controls.Add(Me.MaskedTextBox3)
         Me.Controls.Add(Me.MaskedTextBox2)
         Me.Controls.Add(Me.MaskedTextBox1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.FlatType)
+        Me.Controls.Add(Me.FlatNmber)
+        Me.Controls.Add(Me.Block)
+        Me.Controls.Add(Me.Phone)
+        Me.Controls.Add(Me.Email)
+        Me.Controls.Add(Me.Password)
+        Me.Controls.Add(Me.TenantID)
+        Me.Controls.Add(Me.TenantName)
         Me.Name = "Tenant_Registration"
         Me.Text = "Tenant_Registration"
         Me.ResumeLayout(False)
@@ -234,14 +234,14 @@ Partial Class Tenant_Registration
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents TenantName As Label
+    Friend WithEvents TenantID As Label
+    Friend WithEvents Password As Label
+    Friend WithEvents Email As Label
+    Friend WithEvents Phone As Label
+    Friend WithEvents Block As Label
+    Friend WithEvents FlatNmber As Label
+    Friend WithEvents FlatType As Label
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents MaskedTextBox2 As MaskedTextBox
     Friend WithEvents MaskedTextBox3 As MaskedTextBox
@@ -250,6 +250,6 @@ Partial Class Tenant_Registration
     Friend WithEvents MaskedTextBox6 As MaskedTextBox
     Friend WithEvents MaskedTextBox7 As MaskedTextBox
     Friend WithEvents MaskedTextBox8 As MaskedTextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Submit As Button
+    Friend WithEvents Reset As Button
 End Class
