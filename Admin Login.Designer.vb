@@ -30,6 +30,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'Button1
@@ -47,7 +48,7 @@ Partial Class Form1
         Me.TextBox1.Location = New System.Drawing.Point(863, 120)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(263, 41)
+        Me.TextBox1.Size = New System.Drawing.Size(263, 25)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox2
@@ -55,7 +56,7 @@ Partial Class Form1
         Me.TextBox2.Location = New System.Drawing.Point(863, 184)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(263, 42)
+        Me.TextBox2.Size = New System.Drawing.Size(263, 25)
         Me.TextBox2.TabIndex = 1
         '
         'Button2
@@ -72,7 +73,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(705, 120)
+        Me.Label1.Location = New System.Drawing.Point(732, 120)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 25)
         Me.Label1.TabIndex = 4
@@ -82,7 +83,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(705, 184)
+        Me.Label2.Location = New System.Drawing.Point(732, 184)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(98, 25)
         Me.Label2.TabIndex = 5
@@ -98,12 +99,20 @@ Partial Class Form1
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Admin Login"
         '
+        'Panel1
+        '
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.Location = New System.Drawing.Point(-66, -48)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(792, 775)
+        Me.Panel1.TabIndex = 7
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1147, 710)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -125,4 +134,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Panel1 As Panel
 End Class
