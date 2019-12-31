@@ -24,53 +24,57 @@ Partial Class House_Entry
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
-        Me.PaidPartially = New System.Windows.Forms.Label()
-        Me.PaidFully = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.Back = New System.Windows.Forms.Button()
-        Me.Submit = New System.Windows.Forms.Button()
-        Me.Phone = New System.Windows.Forms.Label()
-        Me.PaymentStatus = New System.Windows.Forms.Label()
-        Me.RentAmount = New System.Windows.Forms.Label()
-        Me.FlatNumber = New System.Windows.Forms.Label()
-        Me.FlatType = New System.Windows.Forms.Label()
-        Me.BlockName = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.NoofPersons = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TenantID = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.RadioButton2)
+        Me.Panel1.Controls.Add(Me.RadioButton1)
         Me.Panel1.Controls.Add(Me.MaskedTextBox3)
-        Me.Panel1.Controls.Add(Me.PaidPartially)
-        Me.Panel1.Controls.Add(Me.PaidFully)
+        Me.Panel1.Controls.Add(Me.Label12)
+        Me.Panel1.Controls.Add(Me.Label11)
         Me.Panel1.Controls.Add(Me.MaskedTextBox2)
         Me.Panel1.Controls.Add(Me.ComboBox4)
         Me.Panel1.Controls.Add(Me.ComboBox3)
         Me.Panel1.Controls.Add(Me.ComboBox2)
-        Me.Panel1.Controls.Add(Me.Back)
-        Me.Panel1.Controls.Add(Me.Submit)
-        Me.Panel1.Controls.Add(Me.Phone)
-        Me.Panel1.Controls.Add(Me.PaymentStatus)
-        Me.Panel1.Controls.Add(Me.RentAmount)
-        Me.Panel1.Controls.Add(Me.FlatNumber)
-        Me.Panel1.Controls.Add(Me.FlatType)
-        Me.Panel1.Controls.Add(Me.BlockName)
+        Me.Panel1.Controls.Add(Me.Button2)
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.Label10)
+        Me.Panel1.Controls.Add(Me.Label9)
+        Me.Panel1.Controls.Add(Me.Label8)
+        Me.Panel1.Controls.Add(Me.Label7)
+        Me.Panel1.Controls.Add(Me.Label6)
+        Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.MaskedTextBox1)
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.NoofPersons)
+        Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.ComboBox1)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.TenantID)
+        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(1, 199)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(531, 513)
@@ -83,27 +87,27 @@ Partial Class House_Entry
         Me.MaskedTextBox3.Size = New System.Drawing.Size(168, 22)
         Me.MaskedTextBox3.TabIndex = 20
         '
-        'PaidPartially
+        'Label12
         '
-        Me.PaidPartially.AutoSize = True
-        Me.PaidPartially.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.PaidPartially.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.PaidPartially.Location = New System.Drawing.Point(274, 381)
-        Me.PaidPartially.Name = "PaidPartially"
-        Me.PaidPartially.Size = New System.Drawing.Size(90, 17)
-        Me.PaidPartially.TabIndex = 19
-        Me.PaidPartially.Text = "Paid Partially"
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label12.Location = New System.Drawing.Point(387, 262)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(90, 17)
+        Me.Label12.TabIndex = 19
+        Me.Label12.Text = "Paid Partially"
         '
-        'PaidFully
+        'Label11
         '
-        Me.PaidFully.AutoSize = True
-        Me.PaidFully.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.PaidFully.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.PaidFully.Location = New System.Drawing.Point(184, 381)
-        Me.PaidFully.Name = "PaidFully"
-        Me.PaidFully.Size = New System.Drawing.Size(69, 17)
-        Me.PaidFully.TabIndex = 18
-        Me.PaidFully.Text = "Paid Fully"
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label11.Location = New System.Drawing.Point(408, 298)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(69, 17)
+        Me.Label11.TabIndex = 18
+        Me.Label11.Text = "Paid Fully"
         '
         'MaskedTextBox2
         '
@@ -136,89 +140,89 @@ Partial Class House_Entry
         Me.ComboBox2.Size = New System.Drawing.Size(168, 24)
         Me.ComboBox2.TabIndex = 14
         '
-        'Back
+        'Button2
         '
-        Me.Back.Location = New System.Drawing.Point(260, 476)
-        Me.Back.Name = "Back"
-        Me.Back.Size = New System.Drawing.Size(122, 34)
-        Me.Back.TabIndex = 13
-        Me.Back.Text = "Back"
-        Me.Back.UseVisualStyleBackColor = True
+        Me.Button2.Location = New System.Drawing.Point(260, 476)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(122, 34)
+        Me.Button2.TabIndex = 13
+        Me.Button2.Text = "Back"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'Submit
+        'Button1
         '
-        Me.Submit.Location = New System.Drawing.Point(91, 476)
-        Me.Submit.Name = "Submit"
-        Me.Submit.Size = New System.Drawing.Size(122, 34)
-        Me.Submit.TabIndex = 12
-        Me.Submit.Text = "Submit"
-        Me.Submit.UseVisualStyleBackColor = True
+        Me.Button1.Location = New System.Drawing.Point(91, 476)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(122, 34)
+        Me.Button1.TabIndex = 12
+        Me.Button1.Text = "Submit"
+        Me.Button1.UseVisualStyleBackColor = True
         '
-        'Phone
+        'Label10
         '
-        Me.Phone.AutoSize = True
-        Me.Phone.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Phone.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Phone.Location = New System.Drawing.Point(34, 419)
-        Me.Phone.Name = "Phone"
-        Me.Phone.Size = New System.Drawing.Size(49, 17)
-        Me.Phone.TabIndex = 11
-        Me.Phone.Text = "Phone"
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label10.Location = New System.Drawing.Point(34, 419)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(49, 17)
+        Me.Label10.TabIndex = 11
+        Me.Label10.Text = "Phone"
         '
-        'PaymentStatus
+        'Label9
         '
-        Me.PaymentStatus.AutoSize = True
-        Me.PaymentStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.PaymentStatus.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.PaymentStatus.Location = New System.Drawing.Point(31, 381)
-        Me.PaymentStatus.Name = "PaymentStatus"
-        Me.PaymentStatus.Size = New System.Drawing.Size(107, 17)
-        Me.PaymentStatus.TabIndex = 10
-        Me.PaymentStatus.Text = "Payment Status"
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label9.Location = New System.Drawing.Point(31, 381)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(107, 17)
+        Me.Label9.TabIndex = 10
+        Me.Label9.Text = "Payment Status"
         '
-        'RentAmount
+        'Label8
         '
-        Me.RentAmount.AutoSize = True
-        Me.RentAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.RentAmount.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.RentAmount.Location = New System.Drawing.Point(34, 342)
-        Me.RentAmount.Name = "RentAmount"
-        Me.RentAmount.Size = New System.Drawing.Size(90, 17)
-        Me.RentAmount.TabIndex = 9
-        Me.RentAmount.Text = "Rent Amount"
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label8.Location = New System.Drawing.Point(34, 342)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(90, 17)
+        Me.Label8.TabIndex = 9
+        Me.Label8.Text = "Rent Amount"
         '
-        'FlatNumber
+        'Label7
         '
-        Me.FlatNumber.AutoSize = True
-        Me.FlatNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.FlatNumber.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.FlatNumber.Location = New System.Drawing.Point(34, 298)
-        Me.FlatNumber.Name = "FlatNumber"
-        Me.FlatNumber.Size = New System.Drawing.Size(85, 17)
-        Me.FlatNumber.TabIndex = 8
-        Me.FlatNumber.Text = "Flat Number"
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label7.Location = New System.Drawing.Point(34, 298)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(85, 17)
+        Me.Label7.TabIndex = 8
+        Me.Label7.Text = "Flat Number"
         '
-        'FlatType
+        'Label6
         '
-        Me.FlatType.AutoSize = True
-        Me.FlatType.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.FlatType.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.FlatType.Location = New System.Drawing.Point(34, 255)
-        Me.FlatType.Name = "FlatType"
-        Me.FlatType.Size = New System.Drawing.Size(67, 17)
-        Me.FlatType.TabIndex = 7
-        Me.FlatType.Text = "Flat Type"
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label6.Location = New System.Drawing.Point(34, 255)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(67, 17)
+        Me.Label6.TabIndex = 7
+        Me.Label6.Text = "Flat Type"
         '
-        'BlockName
+        'Label5
         '
-        Me.BlockName.AutoSize = True
-        Me.BlockName.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.BlockName.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BlockName.Location = New System.Drawing.Point(31, 209)
-        Me.BlockName.Name = "BlockName"
-        Me.BlockName.Size = New System.Drawing.Size(83, 17)
-        Me.BlockName.TabIndex = 6
-        Me.BlockName.Text = "Block Name"
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label5.Location = New System.Drawing.Point(31, 209)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(83, 17)
+        Me.Label5.TabIndex = 6
+        Me.Label5.Text = "Block Name"
         '
         'MaskedTextBox1
         '
@@ -238,15 +242,15 @@ Partial Class House_Entry
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "in Family"
         '
-        'NoofPersons
+        'Label3
         '
-        Me.NoofPersons.AutoSize = True
-        Me.NoofPersons.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.NoofPersons.Location = New System.Drawing.Point(34, 141)
-        Me.NoofPersons.Name = "NoofPersons"
-        Me.NoofPersons.Size = New System.Drawing.Size(102, 17)
-        Me.NoofPersons.TabIndex = 3
-        Me.NoofPersons.Text = "No. of Persons"
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label3.Location = New System.Drawing.Point(34, 141)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(102, 17)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "No. of Persons"
         '
         'ComboBox1
         '
@@ -266,15 +270,37 @@ Partial Class House_Entry
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Flat Occupier Details"
         '
-        'TenantID
+        'Label1
         '
-        Me.TenantID.AutoSize = True
-        Me.TenantID.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.TenantID.Location = New System.Drawing.Point(31, 87)
-        Me.TenantID.Name = "TenantID"
-        Me.TenantID.Size = New System.Drawing.Size(70, 17)
-        Me.TenantID.TabIndex = 0
-        Me.TenantID.Text = "Tenant ID"
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label1.Location = New System.Drawing.Point(31, 87)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(70, 17)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Tenant ID"
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(162, 377)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(115, 21)
+        Me.RadioButton1.TabIndex = 21
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "RadioButton1"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(283, 377)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(115, 21)
+        Me.RadioButton2.TabIndex = 22
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "RadioButton2"
+        Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'House_Entry
         '
@@ -292,24 +318,26 @@ Partial Class House_Entry
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents MaskedTextBox3 As MaskedTextBox
-    Friend WithEvents PaidPartially As Label
-    Friend WithEvents PaidFully As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
     Friend WithEvents MaskedTextBox2 As MaskedTextBox
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Back As Button
-    Friend WithEvents Submit As Button
-    Friend WithEvents Phone As Label
-    Friend WithEvents PaymentStatus As Label
-    Friend WithEvents RentAmount As Label
-    Friend WithEvents FlatNumber As Label
-    Friend WithEvents FlatType As Label
-    Friend WithEvents BlockName As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents NoofPersons As Label
+    Friend WithEvents Label3 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TenantID As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButton1 As RadioButton
 End Class
