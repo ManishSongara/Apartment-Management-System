@@ -31,17 +31,19 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(863, 253)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(108, 36)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
@@ -61,13 +63,14 @@ Partial Class Form1
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(1011, 253)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(115, 36)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Reset"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -108,11 +111,21 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(792, 775)
         Me.Panel1.TabIndex = 7
         '
+        'Panel2
+        '
+        Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
+        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel2.Location = New System.Drawing.Point(723, 309)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(424, 401)
+        Me.Panel2.TabIndex = 8
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1147, 710)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -136,4 +149,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
 End Class

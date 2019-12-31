@@ -31,33 +31,36 @@ Partial Class first_page
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(652, 121)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(168, 50)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Admin Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(652, 222)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(168, 47)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Tenant Login"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(652, 331)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(168, 51)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Apartment Details"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Panel1
         '

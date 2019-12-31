@@ -12,7 +12,7 @@ Public Class Form1
         rd = cmd.ExecuteReader
         With rd
             If .Read Then
-                MsgBox("              Successfully Login")
+                MsgBox("               Login Successfully ")
                 TextBox1.Clear()
                 TextBox2.Clear()
             Else
@@ -30,6 +30,10 @@ Public Class Form1
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
 
     End Sub
 End Class

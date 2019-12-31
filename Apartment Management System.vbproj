@@ -95,6 +95,12 @@
     <Compile Include="Admin Function.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Alert Notification.Designer.vb">
+      <DependentUpon>Alert Notification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alert Notification.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="apartDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -107,6 +113,18 @@
       <DependentUpon>Admin Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Booking Info.Designer.vb">
+      <DependentUpon>Booking Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Booking Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E Bill Info.Designer.vb">
+      <DependentUpon>E Bill Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="E Bill Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Event Hall.Designer.vb">
       <DependentUpon>Event Hall.vb</DependentUpon>
     </Compile>
@@ -117,6 +135,12 @@
       <DependentUpon>first page.vb</DependentUpon>
     </Compile>
     <Compile Include="first page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="House Entry.Designer.vb">
+      <DependentUpon>House Entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="House Entry.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -146,6 +170,12 @@
     <Compile Include="Problem Report.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rent Info.Designer.vb">
+      <DependentUpon>Rent Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rent Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tenant Function.Designer.vb">
       <DependentUpon>Tenant Function.vb</DependentUpon>
     </Compile>
@@ -172,11 +202,23 @@
     <EmbeddedResource Include="Admin Login.resx">
       <DependentUpon>Admin Login.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Alert Notification.resx">
+      <DependentUpon>Alert Notification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking Info.resx">
+      <DependentUpon>Booking Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E Bill Info.resx">
+      <DependentUpon>E Bill Info.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Event Hall.resx">
       <DependentUpon>Event Hall.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="first page.resx">
       <DependentUpon>first page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="House Entry.resx">
+      <DependentUpon>House Entry.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -189,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Problem Report.resx">
       <DependentUpon>Problem Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rent Info.resx">
+      <DependentUpon>Rent Info.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tenant Function.resx">
       <DependentUpon>Tenant Function.vb</DependentUpon>
