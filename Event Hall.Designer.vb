@@ -24,13 +24,11 @@ Partial Class Event_Hall
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox5 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox6 = New System.Windows.Forms.MaskedTextBox()
@@ -52,27 +50,17 @@ Partial Class Event_Hall
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(55, 153)
+        Me.Label2.Location = New System.Drawing.Point(55, 213)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(101, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Flat Number"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(55, 208)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 20)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Flat Type"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(55, 261)
+        Me.Label4.Location = New System.Drawing.Point(55, 155)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(115, 20)
         Me.Label4.TabIndex = 3
@@ -82,7 +70,7 @@ Partial Class Event_Hall
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(55, 306)
+        Me.Label5.Location = New System.Drawing.Point(55, 257)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 20)
         Me.Label5.TabIndex = 4
@@ -92,7 +80,7 @@ Partial Class Event_Hall
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(55, 353)
+        Me.Label6.Location = New System.Drawing.Point(55, 304)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(71, 20)
         Me.Label6.TabIndex = 5
@@ -109,23 +97,15 @@ Partial Class Event_Hall
         'MaskedTextBox2
         '
         Me.MaskedTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(176, 153)
+        Me.MaskedTextBox2.Location = New System.Drawing.Point(176, 210)
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
         Me.MaskedTextBox2.Size = New System.Drawing.Size(169, 27)
         Me.MaskedTextBox2.TabIndex = 7
         '
-        'MaskedTextBox3
-        '
-        Me.MaskedTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(176, 203)
-        Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(169, 27)
-        Me.MaskedTextBox3.TabIndex = 8
-        '
         'MaskedTextBox4
         '
         Me.MaskedTextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(176, 256)
+        Me.MaskedTextBox4.Location = New System.Drawing.Point(176, 155)
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
         Me.MaskedTextBox4.Size = New System.Drawing.Size(169, 27)
         Me.MaskedTextBox4.TabIndex = 9
@@ -133,7 +113,7 @@ Partial Class Event_Hall
         'MaskedTextBox5
         '
         Me.MaskedTextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox5.Location = New System.Drawing.Point(176, 306)
+        Me.MaskedTextBox5.Location = New System.Drawing.Point(176, 257)
         Me.MaskedTextBox5.Name = "MaskedTextBox5"
         Me.MaskedTextBox5.Size = New System.Drawing.Size(169, 27)
         Me.MaskedTextBox5.TabIndex = 10
@@ -141,7 +121,7 @@ Partial Class Event_Hall
         'MaskedTextBox6
         '
         Me.MaskedTextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox6.Location = New System.Drawing.Point(176, 353)
+        Me.MaskedTextBox6.Location = New System.Drawing.Point(176, 304)
         Me.MaskedTextBox6.Name = "MaskedTextBox6"
         Me.MaskedTextBox6.Size = New System.Drawing.Size(169, 27)
         Me.MaskedTextBox6.TabIndex = 11
@@ -176,13 +156,11 @@ Partial Class Event_Hall
         Me.Controls.Add(Me.MaskedTextBox6)
         Me.Controls.Add(Me.MaskedTextBox5)
         Me.Controls.Add(Me.MaskedTextBox4)
-        Me.Controls.Add(Me.MaskedTextBox3)
         Me.Controls.Add(Me.MaskedTextBox2)
         Me.Controls.Add(Me.MaskedTextBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Event_Hall"
@@ -194,13 +172,11 @@ Partial Class Event_Hall
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents MaskedTextBox2 As MaskedTextBox
-    Friend WithEvents MaskedTextBox3 As MaskedTextBox
     Friend WithEvents MaskedTextBox4 As MaskedTextBox
     Friend WithEvents MaskedTextBox5 As MaskedTextBox
     Friend WithEvents MaskedTextBox6 As MaskedTextBox
