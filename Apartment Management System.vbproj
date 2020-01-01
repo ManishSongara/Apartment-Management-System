@@ -113,6 +113,30 @@
       <DependentUpon>Admin Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Apartment Details.Designer.vb">
+      <DependentUpon>Apartment Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apartment Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Block A.Designer.vb">
+      <DependentUpon>Block A.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Block A.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Block B.Designer.vb">
+      <DependentUpon>Block B.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Block B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Block C.Designer.vb">
+      <DependentUpon>Block C.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Block C.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Booking Info.Designer.vb">
       <DependentUpon>Booking Info.vb</DependentUpon>
     </Compile>
@@ -210,6 +234,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Alert Notification.resx">
       <DependentUpon>Alert Notification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apartment Details.resx">
+      <DependentUpon>Apartment Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Block A.resx">
+      <DependentUpon>Block A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Block B.resx">
+      <DependentUpon>Block B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Block C.resx">
+      <DependentUpon>Block C.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Booking Info.resx">
       <DependentUpon>Booking Info.vb</DependentUpon>
