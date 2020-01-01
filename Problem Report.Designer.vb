@@ -14,7 +14,8 @@ Partial Class Problem_Report
         End Try
     End Sub
 
-    Private Const V As String = "Problem_Report"
+    Private Const V1 As String = "Problem_Report"
+    Private Const V As String = V1
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -31,13 +32,13 @@ Partial Class Problem_Report
         Me.FlatNumber = New System.Windows.Forms.Label()
         Me.Complaint = New System.Windows.Forms.Label()
         Me.Date2 = New System.Windows.Forms.Label()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
+        Me.t_id = New System.Windows.Forms.MaskedTextBox()
+        Me.tname = New System.Windows.Forms.MaskedTextBox()
+        Me.f_no = New System.Windows.Forms.MaskedTextBox()
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
-        Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
+        Me.t_date = New System.Windows.Forms.MaskedTextBox()
         Me.Submit = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.complain = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Logout
@@ -105,26 +106,26 @@ Partial Class Problem_Report
         Me.Date2.TabIndex = 4
         Me.Date2.Text = "Date"
         '
-        'MaskedTextBox1
+        't_id
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(191, 126)
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(183, 22)
-        Me.MaskedTextBox1.TabIndex = 15
+        Me.t_id.Location = New System.Drawing.Point(191, 126)
+        Me.t_id.Name = "t_id"
+        Me.t_id.Size = New System.Drawing.Size(183, 22)
+        Me.t_id.TabIndex = 15
         '
-        'MaskedTextBox2
+        'tname
         '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(191, 193)
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(183, 22)
-        Me.MaskedTextBox2.TabIndex = 16
+        Me.tname.Location = New System.Drawing.Point(191, 193)
+        Me.tname.Name = "tname"
+        Me.tname.Size = New System.Drawing.Size(183, 22)
+        Me.tname.TabIndex = 16
         '
-        'MaskedTextBox3
+        'f_no
         '
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(191, 244)
-        Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(183, 22)
-        Me.MaskedTextBox3.TabIndex = 17
+        Me.f_no.Location = New System.Drawing.Point(191, 244)
+        Me.f_no.Name = "f_no"
+        Me.f_no.Size = New System.Drawing.Size(183, 22)
+        Me.f_no.TabIndex = 17
         '
         'MonthCalendar1
         '
@@ -132,12 +133,12 @@ Partial Class Problem_Report
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 18
         '
-        'MaskedTextBox4
+        't_date
         '
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(191, 365)
-        Me.MaskedTextBox4.Name = "MaskedTextBox4"
-        Me.MaskedTextBox4.Size = New System.Drawing.Size(183, 22)
-        Me.MaskedTextBox4.TabIndex = 19
+        Me.t_date.Location = New System.Drawing.Point(191, 365)
+        Me.t_date.Name = "t_date"
+        Me.t_date.Size = New System.Drawing.Size(183, 22)
+        Me.t_date.TabIndex = 19
         '
         'Submit
         '
@@ -149,27 +150,27 @@ Partial Class Problem_Report
         Me.Submit.Text = "Submit"
         Me.Submit.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'complain
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Insufficiency of Water", "Road Damage", "Parking Camera Not Working"})
-        Me.ComboBox1.Location = New System.Drawing.Point(191, 295)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(183, 24)
-        Me.ComboBox1.TabIndex = 22
+        Me.complain.FormattingEnabled = True
+        Me.complain.Items.AddRange(New Object() {"Insufficiency of Water", "Road Damage", "Parking Camera Not Working"})
+        Me.complain.Location = New System.Drawing.Point(191, 295)
+        Me.complain.Name = "complain"
+        Me.complain.Size = New System.Drawing.Size(183, 24)
+        Me.complain.TabIndex = 22
         '
         'Problem_Report
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(902, 642)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.complain)
         Me.Controls.Add(Me.Submit)
-        Me.Controls.Add(Me.MaskedTextBox4)
+        Me.Controls.Add(Me.t_date)
         Me.Controls.Add(Me.MonthCalendar1)
-        Me.Controls.Add(Me.MaskedTextBox3)
-        Me.Controls.Add(Me.MaskedTextBox2)
-        Me.Controls.Add(Me.MaskedTextBox1)
+        Me.Controls.Add(Me.f_no)
+        Me.Controls.Add(Me.tname)
+        Me.Controls.Add(Me.t_id)
         Me.Controls.Add(Me.Date2)
         Me.Controls.Add(Me.Complaint)
         Me.Controls.Add(Me.FlatNumber)
@@ -177,8 +178,8 @@ Partial Class Problem_Report
         Me.Controls.Add(Me.TenantID)
         Me.Controls.Add(Me.Logout)
         Me.Controls.Add(Me.Back)
-        'Me.Name = Apartment_Management_System.Problem_Report.V
-        Me.Text = "Problem_Report"
+        Me.Name =  Apartment_Management_System.Problem_Report.to
+        'Me.Text = V1
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -191,11 +192,12 @@ Partial Class Problem_Report
     Friend WithEvents FlatNumber As Label
     Friend WithEvents Complaint As Label
     Friend WithEvents Date2 As Label
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
-    Friend WithEvents MaskedTextBox2 As MaskedTextBox
-    Friend WithEvents MaskedTextBox3 As MaskedTextBox
+    Friend WithEvents t_id As MaskedTextBox
+    Friend WithEvents tname As MaskedTextBox
+    Friend WithEvents f_no As MaskedTextBox
     Friend WithEvents MonthCalendar1 As MonthCalendar
-    Friend WithEvents MaskedTextBox4 As MaskedTextBox
+    Friend WithEvents t_date As MaskedTextBox
     Friend WithEvents Submit As Button
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents complain As ComboBox
+    Private Shared ReadOnly [to] As Label
 End Class
