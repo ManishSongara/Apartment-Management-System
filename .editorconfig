@@ -1,0 +1,4 @@
+﻿[*.vb]
+
+# BC40004: Member conflicts with member in the base type and should be declared 'Shadows'
+dotnet_diagnostic.BC40004.severity = silent

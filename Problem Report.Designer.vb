@@ -14,13 +14,15 @@ Partial Class Problem_Report
         End Try
     End Sub
 
+    Private Const V As String = "Problem_Report"
+
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
 
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Logout = New System.Windows.Forms.Button()
         Me.Back = New System.Windows.Forms.Button()
@@ -175,7 +177,7 @@ Partial Class Problem_Report
         Me.Controls.Add(Me.TenantID)
         Me.Controls.Add(Me.Logout)
         Me.Controls.Add(Me.Back)
-        Me.Name = "Problem_Report"
+        'Me.Name = Apartment_Management_System.Problem_Report.V
         Me.Text = "Problem_Report"
         Me.ResumeLayout(False)
         Me.PerformLayout()

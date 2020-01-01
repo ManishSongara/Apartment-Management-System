@@ -24,11 +24,11 @@ Partial Class Tenant_Login
     Private Sub InitializeComponent()
         Me.NewRegistration = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Password = New System.Windows.Forms.Label()
+        Me.Password2 = New System.Windows.Forms.Label()
         Me.TenantID = New System.Windows.Forms.Label()
         Me.Reset = New System.Windows.Forms.Button()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.password1 = New System.Windows.Forms.TextBox()
+        Me.tenantid1 = New System.Windows.Forms.TextBox()
         Me.Login = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -52,15 +52,15 @@ Partial Class Tenant_Login
         Me.Label3.TabIndex = 14
         Me.Label3.Text = "Tenant Login"
         '
-        'Password
+        'Password2
         '
-        Me.Password.AutoSize = True
-        Me.Password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Password.Location = New System.Drawing.Point(706, 219)
-        Me.Password.Name = "Password"
-        Me.Password.Size = New System.Drawing.Size(98, 25)
-        Me.Password.TabIndex = 2
-        Me.Password.Text = "Password"
+        Me.Password2.AutoSize = True
+        Me.Password2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Password2.Location = New System.Drawing.Point(706, 219)
+        Me.Password2.Name = "Password2"
+        Me.Password2.Size = New System.Drawing.Size(98, 25)
+        Me.Password2.TabIndex = 2
+        Me.Password2.Text = "Password"
         '
         'TenantID
         '
@@ -82,21 +82,21 @@ Partial Class Tenant_Login
         Me.Reset.Text = "Reset"
         Me.Reset.UseVisualStyleBackColor = True
         '
-        'TextBox2
+        'password1
         '
-        Me.TextBox2.Location = New System.Drawing.Point(864, 219)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(263, 42)
-        Me.TextBox2.TabIndex = 1
+        Me.password1.Location = New System.Drawing.Point(864, 219)
+        Me.password1.Multiline = True
+        Me.password1.Name = "password1"
+        Me.password1.Size = New System.Drawing.Size(263, 42)
+        Me.password1.TabIndex = 1
         '
-        'TextBox1
+        'tenantid1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(864, 155)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(263, 41)
-        Me.TextBox1.TabIndex = 0
+        Me.tenantid1.Location = New System.Drawing.Point(864, 155)
+        Me.tenantid1.Multiline = True
+        Me.tenantid1.Name = "tenantid1"
+        Me.tenantid1.Size = New System.Drawing.Size(263, 41)
+        Me.tenantid1.TabIndex = 0
         '
         'Login
         '
@@ -115,11 +115,11 @@ Partial Class Tenant_Login
         Me.ClientSize = New System.Drawing.Size(1186, 769)
         Me.Controls.Add(Me.NewRegistration)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Password)
+        Me.Controls.Add(Me.Password2)
         Me.Controls.Add(Me.TenantID)
         Me.Controls.Add(Me.Reset)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.password1)
+        Me.Controls.Add(Me.tenantid1)
         Me.Controls.Add(Me.Login)
         Me.Name = "Tenant_Login"
         Me.Text = "Tenant_Login"
@@ -130,10 +130,10 @@ Partial Class Tenant_Login
 
     Friend WithEvents NewRegistration As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents Password As Label
+    Friend WithEvents Password2 As Label
     Friend WithEvents TenantID As Label
     Friend WithEvents Reset As Button
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents password1 As TextBox
+    Friend WithEvents tenantid1 As TextBox
     Friend WithEvents Login As Button
 End Class

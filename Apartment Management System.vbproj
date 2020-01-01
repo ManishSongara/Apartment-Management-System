@@ -255,6 +255,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="apartDataSet.xsc">
       <DependentUpon>apartDataSet.xsd</DependentUpon>
     </None>
