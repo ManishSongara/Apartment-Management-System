@@ -13,6 +13,7 @@ Public Class Form1
         With rd
             If .Read Then
                 MsgBox("               Login Successfully ")
+                Admin_Function.Show()
                 TextBox1.Clear()
                 TextBox2.Clear()
             Else

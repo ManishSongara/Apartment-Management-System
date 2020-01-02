@@ -23,9 +23,9 @@ Partial Class Apartment_Details
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.BlockA = New System.Windows.Forms.Button()
-        Me.BlockB = New System.Windows.Forms.Button()
         Me.BlockC = New System.Windows.Forms.Button()
+        Me.BlockB = New System.Windows.Forms.Button()
+        Me.BlockA = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
@@ -41,14 +41,14 @@ Partial Class Apartment_Details
         Me.Panel1.Size = New System.Drawing.Size(258, 375)
         Me.Panel1.TabIndex = 0
         '
-        'BlockA
+        'BlockC
         '
-        Me.BlockA.Location = New System.Drawing.Point(53, 54)
-        Me.BlockA.Name = "BlockA"
-        Me.BlockA.Size = New System.Drawing.Size(138, 52)
-        Me.BlockA.TabIndex = 0
-        Me.BlockA.Text = "Block A"
-        Me.BlockA.UseVisualStyleBackColor = True
+        Me.BlockC.Location = New System.Drawing.Point(53, 279)
+        Me.BlockC.Name = "BlockC"
+        Me.BlockC.Size = New System.Drawing.Size(138, 52)
+        Me.BlockC.TabIndex = 2
+        Me.BlockC.Text = "Block C"
+        Me.BlockC.UseVisualStyleBackColor = True
         '
         'BlockB
         '
@@ -59,14 +59,14 @@ Partial Class Apartment_Details
         Me.BlockB.Text = "Block B"
         Me.BlockB.UseVisualStyleBackColor = True
         '
-        'BlockC
+        'BlockA
         '
-        Me.BlockC.Location = New System.Drawing.Point(53, 279)
-        Me.BlockC.Name = "BlockC"
-        Me.BlockC.Size = New System.Drawing.Size(138, 52)
-        Me.BlockC.TabIndex = 2
-        Me.BlockC.Text = "Block C"
-        Me.BlockC.UseVisualStyleBackColor = True
+        Me.BlockA.Location = New System.Drawing.Point(53, 54)
+        Me.BlockA.Name = "BlockA"
+        Me.BlockA.Size = New System.Drawing.Size(138, 52)
+        Me.BlockA.TabIndex = 0
+        Me.BlockA.Text = "Block A"
+        Me.BlockA.UseVisualStyleBackColor = True
         '
         'Button5
         '
