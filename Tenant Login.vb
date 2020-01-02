@@ -5,7 +5,7 @@ Public Class Tenant_Login
     Dim con As New SqlConnection
     Dim rd As SqlDataReader
     Private Sub Login_Click(sender As Object, e As EventArgs) Handles Login.Click
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\apart.mdf;Integrated Security=True"
+        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Manish\Source\Repos\Apartment-Management-System2\apart.mdf;Integrated Security=True"
         cmd.Connection = con
         cmd.CommandText = "Select * from [tenant_login] where tenant_id=" + tenantid1.Text + " and password='" + password1.Text + "'"
         con.Open()

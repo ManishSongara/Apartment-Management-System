@@ -4,16 +4,14 @@ Public Class Problem_Report
     Dim cmd As New SqlCommand
     Dim wr As SqlDataAdapter
     Private Sub Submit_Click(sender As Object, e As EventArgs) Handles Submit.Click
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\apart.mdf;Integrated Security=True"
+        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Manish\Source\Repos\Apartment-Management-System2\apart.mdf;Integrated Security=True"
         cmd.Connection = con
         cmd.CommandText = "insert into complain(tenantid,name,flatnumber,complain,date) values(" + t_id.Text + ",'" + tname.Text + "'," + f_no.Text + ",'" + complain.SelectedItem + "','" + t_date.Text + "')"
         con.Open()
         If cmd.ExecuteNonQuery() = 1 Then
 
             MessageBox.Show("New User Added")
-
         Else
-
             MessageBox.Show("User Not Added")
 
         End If
