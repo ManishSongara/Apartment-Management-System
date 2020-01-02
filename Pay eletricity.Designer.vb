@@ -30,21 +30,21 @@ Partial Class Pay_eletricity
         Me.PreviousReading = New System.Windows.Forms.Label()
         Me.CurrentReading = New System.Windows.Forms.Label()
         Me.ThisMonthReading = New System.Windows.Forms.Label()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox5 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox6 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox7 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox8 = New System.Windows.Forms.MaskedTextBox()
+        Me.t_id = New System.Windows.Forms.MaskedTextBox()
+        Me.flatNo = New System.Windows.Forms.MaskedTextBox()
+        Me.flatType = New System.Windows.Forms.MaskedTextBox()
+        Me.blockNo = New System.Windows.Forms.MaskedTextBox()
+        Me.date2 = New System.Windows.Forms.MaskedTextBox()
+        Me.p_reading = New System.Windows.Forms.MaskedTextBox()
+        Me.current_reading = New System.Windows.Forms.MaskedTextBox()
+        Me.this_m_reading = New System.Windows.Forms.MaskedTextBox()
         Me.AmounttoPay = New System.Windows.Forms.Label()
         Me.CalculateReading = New System.Windows.Forms.Button()
-        Me.MaskedTextBox9 = New System.Windows.Forms.MaskedTextBox()
+        Me.amount_to_pay = New System.Windows.Forms.MaskedTextBox()
         Me.CalculateAmount = New System.Windows.Forms.Button()
         Me.CardNumber = New System.Windows.Forms.Label()
         Me.PINNumber = New System.Windows.Forms.Label()
-        Me.MaskedTextBox10 = New System.Windows.Forms.MaskedTextBox()
+        Me.cardNo = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox11 = New System.Windows.Forms.MaskedTextBox()
         Me.PAY = New System.Windows.Forms.Button()
         Me.BACK = New System.Windows.Forms.Button()
@@ -123,61 +123,61 @@ Partial Class Pay_eletricity
         Me.ThisMonthReading.TabIndex = 7
         Me.ThisMonthReading.Text = "This Month Reading"
         '
-        'MaskedTextBox1
+        't_id
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(190, 128)
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox1.TabIndex = 8
+        Me.t_id.Location = New System.Drawing.Point(190, 128)
+        Me.t_id.Name = "t_id"
+        Me.t_id.Size = New System.Drawing.Size(175, 22)
+        Me.t_id.TabIndex = 8
         '
-        'MaskedTextBox2
+        'flatNo
         '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(190, 180)
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox2.TabIndex = 9
+        Me.flatNo.Location = New System.Drawing.Point(190, 180)
+        Me.flatNo.Name = "flatNo"
+        Me.flatNo.Size = New System.Drawing.Size(175, 22)
+        Me.flatNo.TabIndex = 9
         '
-        'MaskedTextBox3
+        'flatType
         '
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(190, 233)
-        Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox3.TabIndex = 10
+        Me.flatType.Location = New System.Drawing.Point(190, 233)
+        Me.flatType.Name = "flatType"
+        Me.flatType.Size = New System.Drawing.Size(175, 22)
+        Me.flatType.TabIndex = 10
         '
-        'MaskedTextBox4
+        'blockNo
         '
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(190, 282)
-        Me.MaskedTextBox4.Name = "MaskedTextBox4"
-        Me.MaskedTextBox4.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox4.TabIndex = 11
+        Me.blockNo.Location = New System.Drawing.Point(190, 282)
+        Me.blockNo.Name = "blockNo"
+        Me.blockNo.Size = New System.Drawing.Size(175, 22)
+        Me.blockNo.TabIndex = 11
         '
-        'MaskedTextBox5
+        'date2
         '
-        Me.MaskedTextBox5.Location = New System.Drawing.Point(190, 336)
-        Me.MaskedTextBox5.Name = "MaskedTextBox5"
-        Me.MaskedTextBox5.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox5.TabIndex = 12
+        Me.date2.Location = New System.Drawing.Point(190, 336)
+        Me.date2.Name = "date2"
+        Me.date2.Size = New System.Drawing.Size(175, 22)
+        Me.date2.TabIndex = 12
         '
-        'MaskedTextBox6
+        'p_reading
         '
-        Me.MaskedTextBox6.Location = New System.Drawing.Point(613, 128)
-        Me.MaskedTextBox6.Name = "MaskedTextBox6"
-        Me.MaskedTextBox6.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox6.TabIndex = 13
+        Me.p_reading.Location = New System.Drawing.Point(613, 128)
+        Me.p_reading.Name = "p_reading"
+        Me.p_reading.Size = New System.Drawing.Size(175, 22)
+        Me.p_reading.TabIndex = 13
         '
-        'MaskedTextBox7
+        'current_reading
         '
-        Me.MaskedTextBox7.Location = New System.Drawing.Point(613, 180)
-        Me.MaskedTextBox7.Name = "MaskedTextBox7"
-        Me.MaskedTextBox7.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox7.TabIndex = 14
+        Me.current_reading.Location = New System.Drawing.Point(613, 180)
+        Me.current_reading.Name = "current_reading"
+        Me.current_reading.Size = New System.Drawing.Size(175, 22)
+        Me.current_reading.TabIndex = 14
         '
-        'MaskedTextBox8
+        'this_m_reading
         '
-        Me.MaskedTextBox8.Location = New System.Drawing.Point(613, 233)
-        Me.MaskedTextBox8.Name = "MaskedTextBox8"
-        Me.MaskedTextBox8.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox8.TabIndex = 15
+        Me.this_m_reading.Location = New System.Drawing.Point(613, 233)
+        Me.this_m_reading.Name = "this_m_reading"
+        Me.this_m_reading.Size = New System.Drawing.Size(175, 22)
+        Me.this_m_reading.TabIndex = 15
         '
         'AmounttoPay
         '
@@ -197,12 +197,12 @@ Partial Class Pay_eletricity
         Me.CalculateReading.Text = "Calculate Reading"
         Me.CalculateReading.UseVisualStyleBackColor = True
         '
-        'MaskedTextBox9
+        'amount_to_pay
         '
-        Me.MaskedTextBox9.Location = New System.Drawing.Point(613, 394)
-        Me.MaskedTextBox9.Name = "MaskedTextBox9"
-        Me.MaskedTextBox9.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox9.TabIndex = 18
+        Me.amount_to_pay.Location = New System.Drawing.Point(613, 394)
+        Me.amount_to_pay.Name = "amount_to_pay"
+        Me.amount_to_pay.Size = New System.Drawing.Size(175, 22)
+        Me.amount_to_pay.TabIndex = 18
         '
         'CalculateAmount
         '
@@ -231,12 +231,12 @@ Partial Class Pay_eletricity
         Me.PINNumber.TabIndex = 12
         Me.PINNumber.Text = "PIN Number"
         '
-        'MaskedTextBox10
+        'cardNo
         '
-        Me.MaskedTextBox10.Location = New System.Drawing.Point(613, 527)
-        Me.MaskedTextBox10.Name = "MaskedTextBox10"
-        Me.MaskedTextBox10.Size = New System.Drawing.Size(175, 22)
-        Me.MaskedTextBox10.TabIndex = 22
+        Me.cardNo.Location = New System.Drawing.Point(613, 527)
+        Me.cardNo.Name = "cardNo"
+        Me.cardNo.Size = New System.Drawing.Size(175, 22)
+        Me.cardNo.TabIndex = 22
         '
         'MaskedTextBox11
         '
@@ -278,21 +278,21 @@ Partial Class Pay_eletricity
         Me.Controls.Add(Me.BACK)
         Me.Controls.Add(Me.PAY)
         Me.Controls.Add(Me.MaskedTextBox11)
-        Me.Controls.Add(Me.MaskedTextBox10)
+        Me.Controls.Add(Me.cardNo)
         Me.Controls.Add(Me.PINNumber)
         Me.Controls.Add(Me.CardNumber)
         Me.Controls.Add(Me.CalculateAmount)
-        Me.Controls.Add(Me.MaskedTextBox9)
+        Me.Controls.Add(Me.amount_to_pay)
         Me.Controls.Add(Me.CalculateReading)
         Me.Controls.Add(Me.AmounttoPay)
-        Me.Controls.Add(Me.MaskedTextBox8)
-        Me.Controls.Add(Me.MaskedTextBox7)
-        Me.Controls.Add(Me.MaskedTextBox6)
-        Me.Controls.Add(Me.MaskedTextBox5)
-        Me.Controls.Add(Me.MaskedTextBox4)
-        Me.Controls.Add(Me.MaskedTextBox3)
-        Me.Controls.Add(Me.MaskedTextBox2)
-        Me.Controls.Add(Me.MaskedTextBox1)
+        Me.Controls.Add(Me.this_m_reading)
+        Me.Controls.Add(Me.current_reading)
+        Me.Controls.Add(Me.p_reading)
+        Me.Controls.Add(Me.date2)
+        Me.Controls.Add(Me.blockNo)
+        Me.Controls.Add(Me.flatType)
+        Me.Controls.Add(Me.flatNo)
+        Me.Controls.Add(Me.t_id)
         Me.Controls.Add(Me.ThisMonthReading)
         Me.Controls.Add(Me.CurrentReading)
         Me.Controls.Add(Me.PreviousReading)
@@ -316,21 +316,21 @@ Partial Class Pay_eletricity
     Friend WithEvents PreviousReading As Label
     Friend WithEvents CurrentReading As Label
     Friend WithEvents ThisMonthReading As Label
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
-    Friend WithEvents MaskedTextBox2 As MaskedTextBox
-    Friend WithEvents MaskedTextBox3 As MaskedTextBox
-    Friend WithEvents MaskedTextBox4 As MaskedTextBox
-    Friend WithEvents MaskedTextBox5 As MaskedTextBox
-    Friend WithEvents MaskedTextBox6 As MaskedTextBox
-    Friend WithEvents MaskedTextBox7 As MaskedTextBox
-    Friend WithEvents MaskedTextBox8 As MaskedTextBox
+    Friend WithEvents t_id As MaskedTextBox
+    Friend WithEvents flatNo As MaskedTextBox
+    Friend WithEvents flatType As MaskedTextBox
+    Friend WithEvents blockNo As MaskedTextBox
+    Friend WithEvents date2 As MaskedTextBox
+    Friend WithEvents p_reading As MaskedTextBox
+    Friend WithEvents current_reading As MaskedTextBox
+    Friend WithEvents this_m_reading As MaskedTextBox
     Friend WithEvents AmounttoPay As Label
     Friend WithEvents CalculateReading As Button
-    Friend WithEvents MaskedTextBox9 As MaskedTextBox
+    Friend WithEvents amount_to_pay As MaskedTextBox
     Friend WithEvents CalculateAmount As Button
     Friend WithEvents CardNumber As Label
     Friend WithEvents PINNumber As Label
-    Friend WithEvents MaskedTextBox10 As MaskedTextBox
+    Friend WithEvents cardNo As MaskedTextBox
     Friend WithEvents MaskedTextBox11 As MaskedTextBox
     Friend WithEvents PAY As Button
     Friend WithEvents BACK As Button

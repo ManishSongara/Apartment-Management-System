@@ -316,10 +316,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="apart.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="apart_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>apart.mdf</DependentUpon>
     </Content>
   </ItemGroup>
