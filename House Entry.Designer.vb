@@ -117,7 +117,7 @@ Partial Class House_Entry
         'ComboBox4
         '
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(175, 298)
+        Me.ComboBox4.Location = New System.Drawing.Point(175, 257)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(168, 24)
         Me.ComboBox4.TabIndex = 16
@@ -125,7 +125,7 @@ Partial Class House_Entry
         'ComboBox3
         '
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(175, 255)
+        Me.ComboBox3.Location = New System.Drawing.Point(175, 297)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(168, 24)
         Me.ComboBox3.TabIndex = 15
@@ -194,7 +194,7 @@ Partial Class House_Entry
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label7.Location = New System.Drawing.Point(34, 298)
+        Me.Label7.Location = New System.Drawing.Point(34, 259)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(85, 17)
         Me.Label7.TabIndex = 8
@@ -205,7 +205,7 @@ Partial Class House_Entry
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label6.Location = New System.Drawing.Point(34, 255)
+        Me.Label6.Location = New System.Drawing.Point(37, 299)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(67, 17)
         Me.Label6.TabIndex = 7

@@ -39,7 +39,7 @@ Partial Class Booking_Info
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.HallBooking)
-        Me.Panel1.Location = New System.Drawing.Point(49, 240)
+        Me.Panel1.Location = New System.Drawing.Point(12, 274)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(150, 56)
         Me.Panel1.TabIndex = 0
@@ -57,7 +57,7 @@ Partial Class Booking_Info
         '
         'View
         '
-        Me.View.Location = New System.Drawing.Point(62, 335)
+        Me.View.Location = New System.Drawing.Point(25, 369)
         Me.View.Name = "View"
         Me.View.Size = New System.Drawing.Size(121, 39)
         Me.View.TabIndex = 1
@@ -66,7 +66,7 @@ Partial Class Booking_Info
         '
         'Back
         '
-        Me.Back.Location = New System.Drawing.Point(62, 407)
+        Me.Back.Location = New System.Drawing.Point(25, 441)
         Me.Back.Name = "Back"
         Me.Back.Size = New System.Drawing.Size(121, 39)
         Me.Back.TabIndex = 2
@@ -77,11 +77,11 @@ Partial Class Booking_Info
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(256, 240)
+        Me.DataGridView1.Location = New System.Drawing.Point(232, 274)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(543, 255)
+        Me.DataGridView1.Size = New System.Drawing.Size(682, 198)
         Me.DataGridView1.TabIndex = 3
         '
         'Column1
@@ -123,7 +123,7 @@ Partial Class Booking_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(846, 567)
+        Me.ClientSize = New System.Drawing.Size(1019, 651)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Back)
         Me.Controls.Add(Me.View)
