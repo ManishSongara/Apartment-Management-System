@@ -26,19 +26,10 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles UserName.Click
-
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
 
     Private Sub Reset_Click(sender As Object, e As EventArgs) Handles Reset.Click
-
+        TextBox1.Clear()
+        TextBox2.Clear()
     End Sub
 End Class
