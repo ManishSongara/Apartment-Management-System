@@ -6,8 +6,7 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles TenantLogin.Click
         Tenant_Login.Show()
     End Sub
-
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
-
+    Private Sub ApartmentDetails_Click(sender As Object, e As EventArgs) Handles ApartmentDetails.Click
+        Apartment_Details.Show()
     End Sub
 End Class

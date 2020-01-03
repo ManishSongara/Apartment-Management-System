@@ -27,6 +27,7 @@ Partial Class Admin_Function
         Me.EBillInfo = New System.Windows.Forms.Button()
         Me.BookingInfo = New System.Windows.Forms.Button()
         Me.AlertNotification = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'HouseEntry
@@ -74,11 +75,21 @@ Partial Class Admin_Function
         Me.AlertNotification.Text = "Alert Notification"
         Me.AlertNotification.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(530, 313)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(232, 68)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "<----"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Admin_Function
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(924, 694)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.AlertNotification)
         Me.Controls.Add(Me.BookingInfo)
         Me.Controls.Add(Me.EBillInfo)
@@ -95,4 +106,5 @@ Partial Class Admin_Function
     Friend WithEvents EBillInfo As Button
     Friend WithEvents BookingInfo As Button
     Friend WithEvents AlertNotification As Button
+    Friend WithEvents Button1 As Button
 End Class
