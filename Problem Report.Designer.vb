@@ -178,8 +178,7 @@ Partial Class Problem_Report
         Me.Controls.Add(Me.TenantID)
         Me.Controls.Add(Me.Logout)
         Me.Controls.Add(Me.Back)
-        Me.Name =  Apartment_Management_System.Problem_Report.to
-        'Me.Text = V1
+        'Me.Name = "Problem_Report"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

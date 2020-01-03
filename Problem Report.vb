@@ -10,9 +10,9 @@ Public Class Problem_Report
         con.Open()
         If cmd.ExecuteNonQuery() = 1 Then
 
-            MessageBox.Show("New User Added")
+            MessageBox.Show(" Added")
         Else
-            MessageBox.Show("User Not Added")
+            MessageBox.Show(" Not Added")
 
         End If
         con.Close()
@@ -20,5 +20,9 @@ Public Class Problem_Report
 
     Private Sub MonthCalendar1_DateChanged(sender As Object, e As DateRangeEventArgs) Handles MonthCalendar1.DateChanged
         t_date.Text = MonthCalendar1.SelectionEnd
+    End Sub
+
+    Private Sub Back_Click(sender As Object, e As EventArgs) Handles Back.Click
+
     End Sub
 End Class

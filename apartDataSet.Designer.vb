@@ -2128,21 +2128,21 @@ Partial Public Class apartDataSet
     Partial Public Class houseentryDataTable
         Inherits Global.System.Data.TypedTableBase(Of houseentryRow)
         
-        Private columnTenant_ID As Global.System.Data.DataColumn
-        
-        Private columnNo_of_Person_in_Family As Global.System.Data.DataColumn
-        
-        Private columnBlock_No As Global.System.Data.DataColumn
-        
-        Private columnFlat_no As Global.System.Data.DataColumn
-        
-        Private columnFlat_type As Global.System.Data.DataColumn
-        
-        Private columnRent_Amount As Global.System.Data.DataColumn
-        
-        Private columnPayment_Status As Global.System.Data.DataColumn
-        
         Private columnPhone As Global.System.Data.DataColumn
+        
+        Private columnTenantID As Global.System.Data.DataColumn
+        
+        Private columnNoofPersoninFamily As Global.System.Data.DataColumn
+        
+        Private columnBlockNo As Global.System.Data.DataColumn
+        
+        Private columnFlatno As Global.System.Data.DataColumn
+        
+        Private columnFlattype As Global.System.Data.DataColumn
+        
+        Private columnRentAmount As Global.System.Data.DataColumn
+        
+        Private columnPaymentStatus As Global.System.Data.DataColumn
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
@@ -2181,65 +2181,65 @@ Partial Public Class apartDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Tenant_IDColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnTenant_ID
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property No_of_Person_in_FamilyColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnNo_of_Person_in_Family
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Block_NoColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnBlock_No
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Flat_noColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnFlat_no
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Flat_typeColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnFlat_type
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Rent_AmountColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnRent_Amount
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Payment_StatusColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnPayment_Status
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public ReadOnly Property PhoneColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnPhone
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property TenantIDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnTenantID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property NoofPersoninFamilyColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnNoofPersoninFamily
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property BlockNoColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnBlockNo
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property FlatnoColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnFlatno
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property FlattypeColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnFlattype
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property RentAmountColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnRentAmount
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property PaymentStatusColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPaymentStatus
             End Get
         End Property
         
@@ -2280,9 +2280,9 @@ Partial Public Class apartDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Overloads Function AddhouseentryRow(ByVal Tenant_ID As Integer, ByVal No_of_Person_in_Family As Integer, ByVal Block_No As Integer, ByVal Flat_no As Integer, ByVal Flat_type As String, ByVal Rent_Amount As Integer, ByVal Payment_Status As String, ByVal Phone As Integer) As houseentryRow
+        Public Overloads Function AddhouseentryRow(ByVal Phone As Integer, ByVal TenantID As Integer, ByVal NoofPersoninFamily As Integer, ByVal BlockNo As Integer, ByVal Flatno As Integer, ByVal Flattype As String, ByVal RentAmount As Integer, ByVal PaymentStatus As String) As houseentryRow
             Dim rowhouseentryRow As houseentryRow = CType(Me.NewRow,houseentryRow)
-            Dim columnValuesArray() As Object = New Object() {Tenant_ID, No_of_Person_in_Family, Block_No, Flat_no, Flat_type, Rent_Amount, Payment_Status, Phone}
+            Dim columnValuesArray() As Object = New Object() {Phone, TenantID, NoofPersoninFamily, BlockNo, Flatno, Flattype, RentAmount, PaymentStatus}
             rowhouseentryRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowhouseentryRow)
             Return rowhouseentryRow
@@ -2290,8 +2290,8 @@ Partial Public Class apartDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function FindByTenant_ID(ByVal Tenant_ID As Integer) As houseentryRow
-            Return CType(Me.Rows.Find(New Object() {Tenant_ID}),houseentryRow)
+        Public Function FindByTenantID(ByVal TenantID As Integer) As houseentryRow
+            Return CType(Me.Rows.Find(New Object() {TenantID}),houseentryRow)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -2311,47 +2311,47 @@ Partial Public Class apartDataSet
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Friend Sub InitVars()
-            Me.columnTenant_ID = MyBase.Columns("Tenant ID")
-            Me.columnNo_of_Person_in_Family = MyBase.Columns("No of Person in Family")
-            Me.columnBlock_No = MyBase.Columns("Block No")
-            Me.columnFlat_no = MyBase.Columns("Flat no")
-            Me.columnFlat_type = MyBase.Columns("Flat type")
-            Me.columnRent_Amount = MyBase.Columns("Rent Amount")
-            Me.columnPayment_Status = MyBase.Columns("Payment Status")
             Me.columnPhone = MyBase.Columns("Phone")
+            Me.columnTenantID = MyBase.Columns("TenantID")
+            Me.columnNoofPersoninFamily = MyBase.Columns("NoofPersoninFamily")
+            Me.columnBlockNo = MyBase.Columns("BlockNo")
+            Me.columnFlatno = MyBase.Columns("Flatno")
+            Me.columnFlattype = MyBase.Columns("Flattype")
+            Me.columnRentAmount = MyBase.Columns("RentAmount")
+            Me.columnPaymentStatus = MyBase.Columns("PaymentStatus")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Private Sub InitClass()
-            Me.columnTenant_ID = New Global.System.Data.DataColumn("Tenant ID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnTenant_ID)
-            Me.columnNo_of_Person_in_Family = New Global.System.Data.DataColumn("No of Person in Family", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnNo_of_Person_in_Family)
-            Me.columnBlock_No = New Global.System.Data.DataColumn("Block No", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnBlock_No)
-            Me.columnFlat_no = New Global.System.Data.DataColumn("Flat no", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnFlat_no)
-            Me.columnFlat_type = New Global.System.Data.DataColumn("Flat type", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnFlat_type)
-            Me.columnRent_Amount = New Global.System.Data.DataColumn("Rent Amount", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnRent_Amount)
-            Me.columnPayment_Status = New Global.System.Data.DataColumn("Payment Status", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnPayment_Status)
             Me.columnPhone = New Global.System.Data.DataColumn("Phone", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPhone)
-            Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnTenant_ID}, true))
-            Me.columnTenant_ID.AllowDBNull = false
-            Me.columnTenant_ID.Unique = true
-            Me.columnNo_of_Person_in_Family.AllowDBNull = false
-            Me.columnBlock_No.AllowDBNull = false
-            Me.columnFlat_no.AllowDBNull = false
-            Me.columnFlat_type.AllowDBNull = false
-            Me.columnFlat_type.MaxLength = 2147483647
-            Me.columnRent_Amount.AllowDBNull = false
-            Me.columnPayment_Status.AllowDBNull = false
-            Me.columnPayment_Status.MaxLength = 2147483647
+            Me.columnTenantID = New Global.System.Data.DataColumn("TenantID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnTenantID)
+            Me.columnNoofPersoninFamily = New Global.System.Data.DataColumn("NoofPersoninFamily", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnNoofPersoninFamily)
+            Me.columnBlockNo = New Global.System.Data.DataColumn("BlockNo", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnBlockNo)
+            Me.columnFlatno = New Global.System.Data.DataColumn("Flatno", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnFlatno)
+            Me.columnFlattype = New Global.System.Data.DataColumn("Flattype", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnFlattype)
+            Me.columnRentAmount = New Global.System.Data.DataColumn("RentAmount", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnRentAmount)
+            Me.columnPaymentStatus = New Global.System.Data.DataColumn("PaymentStatus", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPaymentStatus)
+            Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnTenantID}, true))
             Me.columnPhone.AllowDBNull = false
+            Me.columnTenantID.AllowDBNull = false
+            Me.columnTenantID.Unique = true
+            Me.columnNoofPersoninFamily.AllowDBNull = false
+            Me.columnBlockNo.AllowDBNull = false
+            Me.columnFlatno.AllowDBNull = false
+            Me.columnFlattype.AllowDBNull = false
+            Me.columnFlattype.MaxLength = 2147483647
+            Me.columnRentAmount.AllowDBNull = false
+            Me.columnPaymentStatus.AllowDBNull = false
+            Me.columnPaymentStatus.MaxLength = 2147483647
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -3458,89 +3458,89 @@ Partial Public Class apartDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property Tenant_ID() As Integer
-            Get
-                Return CType(Me(Me.tablehouseentry.Tenant_IDColumn),Integer)
-            End Get
-            Set
-                Me(Me.tablehouseentry.Tenant_IDColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property No_of_Person_in_Family() As Integer
-            Get
-                Return CType(Me(Me.tablehouseentry.No_of_Person_in_FamilyColumn),Integer)
-            End Get
-            Set
-                Me(Me.tablehouseentry.No_of_Person_in_FamilyColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property Block_No() As Integer
-            Get
-                Return CType(Me(Me.tablehouseentry.Block_NoColumn),Integer)
-            End Get
-            Set
-                Me(Me.tablehouseentry.Block_NoColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property Flat_no() As Integer
-            Get
-                Return CType(Me(Me.tablehouseentry.Flat_noColumn),Integer)
-            End Get
-            Set
-                Me(Me.tablehouseentry.Flat_noColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property Flat_type() As String
-            Get
-                Return CType(Me(Me.tablehouseentry.Flat_typeColumn),String)
-            End Get
-            Set
-                Me(Me.tablehouseentry.Flat_typeColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property Rent_Amount() As Integer
-            Get
-                Return CType(Me(Me.tablehouseentry.Rent_AmountColumn),Integer)
-            End Get
-            Set
-                Me(Me.tablehouseentry.Rent_AmountColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property Payment_Status() As String
-            Get
-                Return CType(Me(Me.tablehouseentry.Payment_StatusColumn),String)
-            End Get
-            Set
-                Me(Me.tablehouseentry.Payment_StatusColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Property Phone() As Integer
             Get
                 Return CType(Me(Me.tablehouseentry.PhoneColumn),Integer)
             End Get
             Set
                 Me(Me.tablehouseentry.PhoneColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property TenantID() As Integer
+            Get
+                Return CType(Me(Me.tablehouseentry.TenantIDColumn),Integer)
+            End Get
+            Set
+                Me(Me.tablehouseentry.TenantIDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property NoofPersoninFamily() As Integer
+            Get
+                Return CType(Me(Me.tablehouseentry.NoofPersoninFamilyColumn),Integer)
+            End Get
+            Set
+                Me(Me.tablehouseentry.NoofPersoninFamilyColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property BlockNo() As Integer
+            Get
+                Return CType(Me(Me.tablehouseentry.BlockNoColumn),Integer)
+            End Get
+            Set
+                Me(Me.tablehouseentry.BlockNoColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property Flatno() As Integer
+            Get
+                Return CType(Me(Me.tablehouseentry.FlatnoColumn),Integer)
+            End Get
+            Set
+                Me(Me.tablehouseentry.FlatnoColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property Flattype() As String
+            Get
+                Return CType(Me(Me.tablehouseentry.FlattypeColumn),String)
+            End Get
+            Set
+                Me(Me.tablehouseentry.FlattypeColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property RentAmount() As Integer
+            Get
+                Return CType(Me(Me.tablehouseentry.RentAmountColumn),Integer)
+            End Get
+            Set
+                Me(Me.tablehouseentry.RentAmountColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property PaymentStatus() As String
+            Get
+                Return CType(Me(Me.tablehouseentry.PaymentStatusColumn),String)
+            End Get
+            Set
+                Me(Me.tablehouseentry.PaymentStatusColumn) = value
             End Set
         End Property
     End Class
@@ -6117,71 +6117,68 @@ Namespace apartDataSetTableAdapters
             Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
             tableMapping.SourceTable = "Table"
             tableMapping.DataSetTable = "houseentry"
-            tableMapping.ColumnMappings.Add("Tenant ID", "Tenant ID")
-            tableMapping.ColumnMappings.Add("No of Person in Family", "No of Person in Family")
-            tableMapping.ColumnMappings.Add("Block No", "Block No")
-            tableMapping.ColumnMappings.Add("Flat no", "Flat no")
-            tableMapping.ColumnMappings.Add("Flat type", "Flat type")
-            tableMapping.ColumnMappings.Add("Rent Amount", "Rent Amount")
-            tableMapping.ColumnMappings.Add("Payment Status", "Payment Status")
             tableMapping.ColumnMappings.Add("Phone", "Phone")
+            tableMapping.ColumnMappings.Add("TenantID", "TenantID")
+            tableMapping.ColumnMappings.Add("NoofPersoninFamily", "NoofPersoninFamily")
+            tableMapping.ColumnMappings.Add("BlockNo", "BlockNo")
+            tableMapping.ColumnMappings.Add("Flatno", "Flatno")
+            tableMapping.ColumnMappings.Add("Flattype", "Flattype")
+            tableMapping.ColumnMappings.Add("RentAmount", "RentAmount")
+            tableMapping.ColumnMappings.Add("PaymentStatus", "PaymentStatus")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.DeleteCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.DeleteCommand.Connection = Me.Connection
-            Me._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[houseentry] WHERE (([Tenant ID] = @Original_Tenant_ID) AND ([N"& _ 
-                "o of Person in Family] = @Original_No_of_Person_in_Family) AND ([Block No] = @Or"& _ 
-                "iginal_Block_No) AND ([Flat no] = @Original_Flat_no) AND ([Rent Amount] = @Origi"& _ 
-                "nal_Rent_Amount) AND ([Phone] = @Original_Phone))"
+            Me._adapter.DeleteCommand.CommandText = "DELETE FROM [houseentry] WHERE (([Phone] = @Original_Phone) AND ([BlockNo] = @Ori"& _ 
+                "ginal_BlockNo) AND ([Flatno] = @Original_Flatno) AND ([NoofPersoninFamily] = @Or"& _ 
+                "iginal_NoofPersoninFamily) AND ([RentAmount] = @Original_RentAmount) AND ([Tenan"& _ 
+                "tID] = @Original_TenantID))"
             Me._adapter.DeleteCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Tenant_ID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Tenant ID", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_No_of_Person_in_Family", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "No of Person in Family", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Block_No", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Block No", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Flat_no", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flat no", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Rent_Amount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Rent Amount", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Phone", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Phone", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_BlockNo", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "BlockNo", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Flatno", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flatno", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_NoofPersoninFamily", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "NoofPersoninFamily", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_RentAmount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "RentAmount", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_TenantID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TenantID", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
-            Me._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[houseentry] ([Tenant ID], [No of Person in Family], [Block No]"& _ 
-                ", [Flat no], [Flat type], [Rent Amount], [Payment Status], [Phone]) VALUES (@Ten"& _ 
-                "ant_ID, @No_of_Person_in_Family, @Block_No, @Flat_no, @Flat_type, @Rent_Amount, "& _ 
-                "@Payment_Status, @Phone);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT [Tenant ID], [No of Person in Family], [Block "& _ 
-                "No], [Flat no], [Flat type], [Rent Amount], [Payment Status], Phone FROM houseen"& _ 
-                "try WHERE ([Tenant ID] = @Tenant_ID)"
+            Me._adapter.InsertCommand.CommandText = "INSERT INTO [houseentry] ([Phone], [BlockNo], [Flatno], [Flattype], [NoofPersonin"& _ 
+                "Family], [PaymentStatus], [RentAmount], [TenantID]) VALUES (@Phone, @BlockNo, @F"& _ 
+                "latno, @Flattype, @NoofPersoninFamily, @PaymentStatus, @RentAmount, @TenantID);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT Phone, BlockNo, Flatno, Flattype, NoofPersoninFamily, PaymentStatus, Ren"& _ 
+                "tAmount, TenantID FROM houseentry WHERE (TenantID = @TenantID)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Tenant_ID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Tenant ID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@No_of_Person_in_Family", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "No of Person in Family", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Block_No", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Block No", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flat_no", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flat no", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flat_type", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flat type", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Rent_Amount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Rent Amount", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Payment_Status", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Payment Status", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Phone", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Phone", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@BlockNo", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "BlockNo", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flatno", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flatno", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flattype", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flattype", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@NoofPersoninFamily", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "NoofPersoninFamily", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PaymentStatus", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "PaymentStatus", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RentAmount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "RentAmount", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TenantID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TenantID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.UpdateCommand.Connection = Me.Connection
-            Me._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[houseentry] SET [Tenant ID] = @Tenant_ID, [No of Person in Family] "& _ 
-                "= @No_of_Person_in_Family, [Block No] = @Block_No, [Flat no] = @Flat_no, [Flat t"& _ 
-                "ype] = @Flat_type, [Rent Amount] = @Rent_Amount, [Payment Status] = @Payment_Sta"& _ 
-                "tus, [Phone] = @Phone WHERE (([Tenant ID] = @Original_Tenant_ID) AND ([No of Per"& _ 
-                "son in Family] = @Original_No_of_Person_in_Family) AND ([Block No] = @Original_B"& _ 
-                "lock_No) AND ([Flat no] = @Original_Flat_no) AND ([Rent Amount] = @Original_Rent"& _ 
-                "_Amount) AND ([Phone] = @Original_Phone));"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT [Tenant ID], [No of Person in"& _ 
-                " Family], [Block No], [Flat no], [Flat type], [Rent Amount], [Payment Status], P"& _ 
-                "hone FROM houseentry WHERE ([Tenant ID] = @Tenant_ID)"
+            Me._adapter.UpdateCommand.CommandText = "UPDATE [houseentry] SET [Phone] = @Phone, [BlockNo] = @BlockNo, [Flatno] = @Flatn"& _ 
+                "o, [Flattype] = @Flattype, [NoofPersoninFamily] = @NoofPersoninFamily, [PaymentS"& _ 
+                "tatus] = @PaymentStatus, [RentAmount] = @RentAmount, [TenantID] = @TenantID WHER"& _ 
+                "E (([Phone] = @Original_Phone) AND ([BlockNo] = @Original_BlockNo) AND ([Flatno]"& _ 
+                " = @Original_Flatno) AND ([NoofPersoninFamily] = @Original_NoofPersoninFamily) A"& _ 
+                "ND ([RentAmount] = @Original_RentAmount) AND ([TenantID] = @Original_TenantID));"& _ 
+                ""&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT Phone, BlockNo, Flatno, Flattype, NoofPersoninFamily, PaymentStatus, Re"& _ 
+                "ntAmount, TenantID FROM houseentry WHERE (TenantID = @TenantID)"
             Me._adapter.UpdateCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Tenant_ID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Tenant ID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@No_of_Person_in_Family", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "No of Person in Family", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Block_No", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Block No", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flat_no", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flat no", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flat_type", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flat type", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Rent_Amount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Rent Amount", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Payment_Status", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Payment Status", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Phone", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Phone", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Tenant_ID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Tenant ID", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_No_of_Person_in_Family", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "No of Person in Family", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Block_No", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Block No", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Flat_no", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flat no", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Rent_Amount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Rent Amount", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@BlockNo", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "BlockNo", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flatno", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flatno", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Flattype", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flattype", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@NoofPersoninFamily", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "NoofPersoninFamily", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PaymentStatus", Global.System.Data.SqlDbType.VarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "PaymentStatus", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RentAmount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "RentAmount", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TenantID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TenantID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Phone", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Phone", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_BlockNo", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "BlockNo", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_Flatno", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Flatno", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_NoofPersoninFamily", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "NoofPersoninFamily", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_RentAmount", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "RentAmount", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_TenantID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TenantID", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -6197,8 +6194,8 @@ Namespace apartDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT [Tenant ID], [No of Person in Family], [Block No], [Flat no], [Flat type],"& _ 
-                " [Rent Amount], [Payment Status], Phone FROM dbo.houseentry"
+            Me._commandCollection(0).CommandText = "SELECT Phone, BlockNo, Flatno, Flattype, NoofPersoninFamily, PaymentStatus, RentA"& _ 
+                "mount, TenantID FROM houseentry"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
         End Sub
         
@@ -6258,13 +6255,13 @@ Namespace apartDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Delete, true)>  _
-        Public Overloads Overridable Function Delete(ByVal Original_Tenant_ID As Integer, ByVal Original_No_of_Person_in_Family As Integer, ByVal Original_Block_No As Integer, ByVal Original_Flat_no As Integer, ByVal Original_Rent_Amount As Integer, ByVal Original_Phone As Integer) As Integer
-            Me.Adapter.DeleteCommand.Parameters(0).Value = CType(Original_Tenant_ID,Integer)
-            Me.Adapter.DeleteCommand.Parameters(1).Value = CType(Original_No_of_Person_in_Family,Integer)
-            Me.Adapter.DeleteCommand.Parameters(2).Value = CType(Original_Block_No,Integer)
-            Me.Adapter.DeleteCommand.Parameters(3).Value = CType(Original_Flat_no,Integer)
-            Me.Adapter.DeleteCommand.Parameters(4).Value = CType(Original_Rent_Amount,Integer)
-            Me.Adapter.DeleteCommand.Parameters(5).Value = CType(Original_Phone,Integer)
+        Public Overloads Overridable Function Delete(ByVal Original_Phone As Integer, ByVal Original_BlockNo As Integer, ByVal Original_Flatno As Integer, ByVal Original_NoofPersoninFamily As Integer, ByVal Original_RentAmount As Integer, ByVal Original_TenantID As Integer) As Integer
+            Me.Adapter.DeleteCommand.Parameters(0).Value = CType(Original_Phone,Integer)
+            Me.Adapter.DeleteCommand.Parameters(1).Value = CType(Original_BlockNo,Integer)
+            Me.Adapter.DeleteCommand.Parameters(2).Value = CType(Original_Flatno,Integer)
+            Me.Adapter.DeleteCommand.Parameters(3).Value = CType(Original_NoofPersoninFamily,Integer)
+            Me.Adapter.DeleteCommand.Parameters(4).Value = CType(Original_RentAmount,Integer)
+            Me.Adapter.DeleteCommand.Parameters(5).Value = CType(Original_TenantID,Integer)
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.DeleteCommand.Connection.State
             If ((Me.Adapter.DeleteCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
                         <> Global.System.Data.ConnectionState.Open) Then
@@ -6284,23 +6281,23 @@ Namespace apartDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, true)>  _
-        Public Overloads Overridable Function Insert(ByVal Tenant_ID As Integer, ByVal No_of_Person_in_Family As Integer, ByVal Block_No As Integer, ByVal Flat_no As Integer, ByVal Flat_type As String, ByVal Rent_Amount As Integer, ByVal Payment_Status As String, ByVal Phone As Integer) As Integer
-            Me.Adapter.InsertCommand.Parameters(0).Value = CType(Tenant_ID,Integer)
-            Me.Adapter.InsertCommand.Parameters(1).Value = CType(No_of_Person_in_Family,Integer)
-            Me.Adapter.InsertCommand.Parameters(2).Value = CType(Block_No,Integer)
-            Me.Adapter.InsertCommand.Parameters(3).Value = CType(Flat_no,Integer)
-            If (Flat_type Is Nothing) Then
-                Throw New Global.System.ArgumentNullException("Flat_type")
+        Public Overloads Overridable Function Insert(ByVal Phone As Integer, ByVal BlockNo As Integer, ByVal Flatno As Integer, ByVal Flattype As String, ByVal NoofPersoninFamily As Integer, ByVal PaymentStatus As String, ByVal RentAmount As Integer, ByVal TenantID As Integer) As Integer
+            Me.Adapter.InsertCommand.Parameters(0).Value = CType(Phone,Integer)
+            Me.Adapter.InsertCommand.Parameters(1).Value = CType(BlockNo,Integer)
+            Me.Adapter.InsertCommand.Parameters(2).Value = CType(Flatno,Integer)
+            If (Flattype Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("Flattype")
             Else
-                Me.Adapter.InsertCommand.Parameters(4).Value = CType(Flat_type,String)
+                Me.Adapter.InsertCommand.Parameters(3).Value = CType(Flattype,String)
             End If
-            Me.Adapter.InsertCommand.Parameters(5).Value = CType(Rent_Amount,Integer)
-            If (Payment_Status Is Nothing) Then
-                Throw New Global.System.ArgumentNullException("Payment_Status")
+            Me.Adapter.InsertCommand.Parameters(4).Value = CType(NoofPersoninFamily,Integer)
+            If (PaymentStatus Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("PaymentStatus")
             Else
-                Me.Adapter.InsertCommand.Parameters(6).Value = CType(Payment_Status,String)
+                Me.Adapter.InsertCommand.Parameters(5).Value = CType(PaymentStatus,String)
             End If
-            Me.Adapter.InsertCommand.Parameters(7).Value = CType(Phone,Integer)
+            Me.Adapter.InsertCommand.Parameters(6).Value = CType(RentAmount,Integer)
+            Me.Adapter.InsertCommand.Parameters(7).Value = CType(TenantID,Integer)
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
             If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
                         <> Global.System.Data.ConnectionState.Open) Then
@@ -6320,29 +6317,29 @@ Namespace apartDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Update, true)>  _
-        Public Overloads Overridable Function Update(ByVal Tenant_ID As Integer, ByVal No_of_Person_in_Family As Integer, ByVal Block_No As Integer, ByVal Flat_no As Integer, ByVal Flat_type As String, ByVal Rent_Amount As Integer, ByVal Payment_Status As String, ByVal Phone As Integer, ByVal Original_Tenant_ID As Integer, ByVal Original_No_of_Person_in_Family As Integer, ByVal Original_Block_No As Integer, ByVal Original_Flat_no As Integer, ByVal Original_Rent_Amount As Integer, ByVal Original_Phone As Integer) As Integer
-            Me.Adapter.UpdateCommand.Parameters(0).Value = CType(Tenant_ID,Integer)
-            Me.Adapter.UpdateCommand.Parameters(1).Value = CType(No_of_Person_in_Family,Integer)
-            Me.Adapter.UpdateCommand.Parameters(2).Value = CType(Block_No,Integer)
-            Me.Adapter.UpdateCommand.Parameters(3).Value = CType(Flat_no,Integer)
-            If (Flat_type Is Nothing) Then
-                Throw New Global.System.ArgumentNullException("Flat_type")
+        Public Overloads Overridable Function Update(ByVal Phone As Integer, ByVal BlockNo As Integer, ByVal Flatno As Integer, ByVal Flattype As String, ByVal NoofPersoninFamily As Integer, ByVal PaymentStatus As String, ByVal RentAmount As Integer, ByVal TenantID As Integer, ByVal Original_Phone As Integer, ByVal Original_BlockNo As Integer, ByVal Original_Flatno As Integer, ByVal Original_NoofPersoninFamily As Integer, ByVal Original_RentAmount As Integer, ByVal Original_TenantID As Integer) As Integer
+            Me.Adapter.UpdateCommand.Parameters(0).Value = CType(Phone,Integer)
+            Me.Adapter.UpdateCommand.Parameters(1).Value = CType(BlockNo,Integer)
+            Me.Adapter.UpdateCommand.Parameters(2).Value = CType(Flatno,Integer)
+            If (Flattype Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("Flattype")
             Else
-                Me.Adapter.UpdateCommand.Parameters(4).Value = CType(Flat_type,String)
+                Me.Adapter.UpdateCommand.Parameters(3).Value = CType(Flattype,String)
             End If
-            Me.Adapter.UpdateCommand.Parameters(5).Value = CType(Rent_Amount,Integer)
-            If (Payment_Status Is Nothing) Then
-                Throw New Global.System.ArgumentNullException("Payment_Status")
+            Me.Adapter.UpdateCommand.Parameters(4).Value = CType(NoofPersoninFamily,Integer)
+            If (PaymentStatus Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("PaymentStatus")
             Else
-                Me.Adapter.UpdateCommand.Parameters(6).Value = CType(Payment_Status,String)
+                Me.Adapter.UpdateCommand.Parameters(5).Value = CType(PaymentStatus,String)
             End If
-            Me.Adapter.UpdateCommand.Parameters(7).Value = CType(Phone,Integer)
-            Me.Adapter.UpdateCommand.Parameters(8).Value = CType(Original_Tenant_ID,Integer)
-            Me.Adapter.UpdateCommand.Parameters(9).Value = CType(Original_No_of_Person_in_Family,Integer)
-            Me.Adapter.UpdateCommand.Parameters(10).Value = CType(Original_Block_No,Integer)
-            Me.Adapter.UpdateCommand.Parameters(11).Value = CType(Original_Flat_no,Integer)
-            Me.Adapter.UpdateCommand.Parameters(12).Value = CType(Original_Rent_Amount,Integer)
-            Me.Adapter.UpdateCommand.Parameters(13).Value = CType(Original_Phone,Integer)
+            Me.Adapter.UpdateCommand.Parameters(6).Value = CType(RentAmount,Integer)
+            Me.Adapter.UpdateCommand.Parameters(7).Value = CType(TenantID,Integer)
+            Me.Adapter.UpdateCommand.Parameters(8).Value = CType(Original_Phone,Integer)
+            Me.Adapter.UpdateCommand.Parameters(9).Value = CType(Original_BlockNo,Integer)
+            Me.Adapter.UpdateCommand.Parameters(10).Value = CType(Original_Flatno,Integer)
+            Me.Adapter.UpdateCommand.Parameters(11).Value = CType(Original_NoofPersoninFamily,Integer)
+            Me.Adapter.UpdateCommand.Parameters(12).Value = CType(Original_RentAmount,Integer)
+            Me.Adapter.UpdateCommand.Parameters(13).Value = CType(Original_TenantID,Integer)
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.UpdateCommand.Connection.State
             If ((Me.Adapter.UpdateCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
                         <> Global.System.Data.ConnectionState.Open) Then
@@ -6362,8 +6359,8 @@ Namespace apartDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Update, true)>  _
-        Public Overloads Overridable Function Update(ByVal No_of_Person_in_Family As Integer, ByVal Block_No As Integer, ByVal Flat_no As Integer, ByVal Flat_type As String, ByVal Rent_Amount As Integer, ByVal Payment_Status As String, ByVal Phone As Integer, ByVal Original_Tenant_ID As Integer, ByVal Original_No_of_Person_in_Family As Integer, ByVal Original_Block_No As Integer, ByVal Original_Flat_no As Integer, ByVal Original_Rent_Amount As Integer, ByVal Original_Phone As Integer) As Integer
-            Return Me.Update(Original_Tenant_ID, No_of_Person_in_Family, Block_No, Flat_no, Flat_type, Rent_Amount, Payment_Status, Phone, Original_Tenant_ID, Original_No_of_Person_in_Family, Original_Block_No, Original_Flat_no, Original_Rent_Amount, Original_Phone)
+        Public Overloads Overridable Function Update(ByVal Phone As Integer, ByVal BlockNo As Integer, ByVal Flatno As Integer, ByVal Flattype As String, ByVal NoofPersoninFamily As Integer, ByVal PaymentStatus As String, ByVal RentAmount As Integer, ByVal Original_Phone As Integer, ByVal Original_BlockNo As Integer, ByVal Original_Flatno As Integer, ByVal Original_NoofPersoninFamily As Integer, ByVal Original_RentAmount As Integer, ByVal Original_TenantID As Integer) As Integer
+            Return Me.Update(Phone, BlockNo, Flatno, Flattype, NoofPersoninFamily, PaymentStatus, RentAmount, Original_TenantID, Original_Phone, Original_BlockNo, Original_Flatno, Original_NoofPersoninFamily, Original_RentAmount, Original_TenantID)
         End Function
     End Class
     

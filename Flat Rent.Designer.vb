@@ -34,20 +34,23 @@ Partial Class Flat_Rent
         Me.Label10 = New System.Windows.Forms.Label()
         Me.PAY = New System.Windows.Forms.Button()
         Me.Decline = New System.Windows.Forms.Button()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.Date3 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.flatNumber = New System.Windows.Forms.TextBox()
+        Me.flattype = New System.Windows.Forms.TextBox()
+        Me.b_name = New System.Windows.Forms.TextBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Submit = New System.Windows.Forms.Button()
         Me.CardNumber = New System.Windows.Forms.Label()
+        Me.MaskedTextBox5 = New System.Windows.Forms.MaskedTextBox()
         Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
         Me.PinNumber = New System.Windows.Forms.Label()
-        Me.MaskedTextBox5 = New System.Windows.Forms.MaskedTextBox()
-        Me.Submit = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -169,30 +172,6 @@ Partial Class Flat_Rent
         Me.Decline.Text = "Decline"
         Me.Decline.UseVisualStyleBackColor = True
         '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(175, 207)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(168, 24)
-        Me.ComboBox2.TabIndex = 14
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(175, 255)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(168, 24)
-        Me.ComboBox3.TabIndex = 15
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(175, 298)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(168, 24)
-        Me.ComboBox4.TabIndex = 16
-        '
         'MaskedTextBox3
         '
         Me.MaskedTextBox3.Location = New System.Drawing.Point(175, 349)
@@ -203,6 +182,7 @@ Partial Class Flat_Rent
         'ComboBox5
         '
         Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"5000", "10000", "15000"})
         Me.ComboBox5.Location = New System.Drawing.Point(175, 451)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(168, 24)
@@ -222,18 +202,14 @@ Partial Class Flat_Rent
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Submit)
-        Me.Panel1.Controls.Add(Me.MaskedTextBox5)
-        Me.Panel1.Controls.Add(Me.PinNumber)
-        Me.Panel1.Controls.Add(Me.MaskedTextBox4)
-        Me.Panel1.Controls.Add(Me.CardNumber)
-        Me.Panel1.Controls.Add(Me.MaskedTextBox2)
+        Me.Panel1.Controls.Add(Me.DateTimePicker1)
+        Me.Panel1.Controls.Add(Me.flatNumber)
+        Me.Panel1.Controls.Add(Me.flattype)
+        Me.Panel1.Controls.Add(Me.b_name)
+        Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.Date3)
         Me.Panel1.Controls.Add(Me.ComboBox5)
         Me.Panel1.Controls.Add(Me.MaskedTextBox3)
-        Me.Panel1.Controls.Add(Me.ComboBox4)
-        Me.Panel1.Controls.Add(Me.ComboBox3)
-        Me.Panel1.Controls.Add(Me.ComboBox2)
         Me.Panel1.Controls.Add(Me.Decline)
         Me.Panel1.Controls.Add(Me.PAY)
         Me.Panel1.Controls.Add(Me.Label10)
@@ -251,27 +227,76 @@ Partial Class Flat_Rent
         Me.Panel1.Size = New System.Drawing.Size(411, 748)
         Me.Panel1.TabIndex = 1
         '
-        'MaskedTextBox2
+        'DateTimePicker1
         '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(175, 397)
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(141, 22)
-        Me.MaskedTextBox2.TabIndex = 25
+        Me.DateTimePicker1.Location = New System.Drawing.Point(156, 398)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 22)
+        Me.DateTimePicker1.TabIndex = 2
+        '
+        'flatNumber
+        '
+        Me.flatNumber.Location = New System.Drawing.Point(173, 298)
+        Me.flatNumber.Name = "flatNumber"
+        Me.flatNumber.Size = New System.Drawing.Size(168, 22)
+        Me.flatNumber.TabIndex = 29
+        '
+        'flattype
+        '
+        Me.flattype.Location = New System.Drawing.Point(173, 250)
+        Me.flattype.Name = "flattype"
+        Me.flattype.Size = New System.Drawing.Size(168, 22)
+        Me.flattype.TabIndex = 28
+        '
+        'b_name
+        '
+        Me.b_name.Location = New System.Drawing.Point(175, 203)
+        Me.b_name.Name = "b_name"
+        Me.b_name.Size = New System.Drawing.Size(168, 22)
+        Me.b_name.TabIndex = 27
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.Submit)
+        Me.Panel2.Controls.Add(Me.CardNumber)
+        Me.Panel2.Controls.Add(Me.MaskedTextBox5)
+        Me.Panel2.Controls.Add(Me.MaskedTextBox4)
+        Me.Panel2.Controls.Add(Me.PinNumber)
+        Me.Panel2.Location = New System.Drawing.Point(24, 568)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(361, 161)
+        Me.Panel2.TabIndex = 26
+        '
+        'Submit
+        '
+        Me.Submit.Location = New System.Drawing.Point(105, 122)
+        Me.Submit.Name = "Submit"
+        Me.Submit.Size = New System.Drawing.Size(122, 34)
+        Me.Submit.TabIndex = 30
+        Me.Submit.Text = "Submit"
+        Me.Submit.UseVisualStyleBackColor = True
         '
         'CardNumber
         '
         Me.CardNumber.AutoSize = True
         Me.CardNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.CardNumber.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.CardNumber.Location = New System.Drawing.Point(31, 601)
+        Me.CardNumber.Location = New System.Drawing.Point(10, 12)
         Me.CardNumber.Name = "CardNumber"
         Me.CardNumber.Size = New System.Drawing.Size(92, 17)
         Me.CardNumber.TabIndex = 26
         Me.CardNumber.Text = "Card Number"
         '
+        'MaskedTextBox5
+        '
+        Me.MaskedTextBox5.Location = New System.Drawing.Point(154, 65)
+        Me.MaskedTextBox5.Name = "MaskedTextBox5"
+        Me.MaskedTextBox5.Size = New System.Drawing.Size(178, 22)
+        Me.MaskedTextBox5.TabIndex = 29
+        '
         'MaskedTextBox4
         '
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(175, 601)
+        Me.MaskedTextBox4.Location = New System.Drawing.Point(154, 12)
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
         Me.MaskedTextBox4.Size = New System.Drawing.Size(178, 22)
         Me.MaskedTextBox4.TabIndex = 27
@@ -281,38 +306,34 @@ Partial Class Flat_Rent
         Me.PinNumber.AutoSize = True
         Me.PinNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.PinNumber.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.PinNumber.Location = New System.Drawing.Point(34, 656)
+        Me.PinNumber.Location = New System.Drawing.Point(13, 67)
         Me.PinNumber.Name = "PinNumber"
         Me.PinNumber.Size = New System.Drawing.Size(82, 17)
         Me.PinNumber.TabIndex = 28
         Me.PinNumber.Text = "Pin Number"
         '
-        'MaskedTextBox5
+        'Button1
         '
-        Me.MaskedTextBox5.Location = New System.Drawing.Point(175, 654)
-        Me.MaskedTextBox5.Name = "MaskedTextBox5"
-        Me.MaskedTextBox5.Size = New System.Drawing.Size(178, 22)
-        Me.MaskedTextBox5.TabIndex = 29
-        '
-        'Submit
-        '
-        Me.Submit.Location = New System.Drawing.Point(126, 711)
-        Me.Submit.Name = "Submit"
-        Me.Submit.Size = New System.Drawing.Size(122, 34)
-        Me.Submit.TabIndex = 30
-        Me.Submit.Text = "Submit"
-        Me.Submit.UseVisualStyleBackColor = True
+        Me.Button1.Location = New System.Drawing.Point(583, 210)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(236, 84)
+        Me.Button1.TabIndex = 26
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Flat_Rent
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(913, 751)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Flat_Rent"
         Me.Text = "Flat_Rent"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -329,17 +350,19 @@ Partial Class Flat_Rent
     Friend WithEvents Label10 As Label
     Friend WithEvents PAY As Button
     Friend WithEvents Decline As Button
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents MaskedTextBox3 As MaskedTextBox
     Friend WithEvents ComboBox5 As ComboBox
     Friend WithEvents Date3 As Label
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents MaskedTextBox2 As MaskedTextBox
     Friend WithEvents MaskedTextBox5 As MaskedTextBox
     Friend WithEvents PinNumber As Label
     Friend WithEvents MaskedTextBox4 As MaskedTextBox
     Friend WithEvents CardNumber As Label
     Friend WithEvents Submit As Button
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents flatNumber As TextBox
+    Friend WithEvents flattype As TextBox
+    Friend WithEvents b_name As TextBox
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Button1 As Button
 End Class

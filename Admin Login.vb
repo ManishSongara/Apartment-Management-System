@@ -5,24 +5,32 @@ Public Class Form1
     Dim con As New SqlConnection
     Dim rd As SqlDataReader
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Login.Click
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\apart.mdf;Integrated Security=True"
-        cmd.Connection = con
-        cmd.CommandText = "Select * from [login] where UserName='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'"
-        con.Open()
-        rd = cmd.ExecuteReader
-        With rd
-            If .Read Then
-                MsgBox("               Login Successfully ")
-                Admin_Function.Show()
-                TextBox1.Clear()
-                TextBox2.Clear()
-            Else
-                TextBox1.Clear()
-                TextBox2.Clear()
-                MessageBox.Show("Invalid Username or Password")
-            End If
-        End With
-        con.Close()
+        Try
+            con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\USERS\MANISH\SOURCE\REPOS\APARTMENT-MANAGEMENT-SYSTEM2\APART.MDF;Integrated Security=True"
+            cmd.Connection = con
+            cmd.CommandText = "Select * from [login] where UserName='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'"
+            con.Close()
+            con.Open()
+            rd = cmd.ExecuteReader
+            With rd
+                If .Read Then
+                    MsgBox("               Login Successfully ")
+                    Admin_Function.Show()
+                    TextBox1.Clear()
+                    TextBox2.Clear()
+                Else
+                    TextBox1.Clear()
+                    TextBox2.Clear()
+                    MessageBox.Show("Invalid Username or Password")
+                End If
+            End With
+            con.Close()
+        Catch ex As Exception
+            MsgBox("invalid access")
+        End Try
+
+
+
 
     End Sub
 
