@@ -33,15 +33,20 @@ Public Class House_Entry
 
 
     Private Sub House_Entry_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\apart.mdf;Integrated Security=True"
-        cmd.Connection = con
-        cmd.CommandText = "Select * from [tenant_login] "
-        con.Open()
-        rd = cmd.ExecuteReader
-        While rd.Read
-            ComboBox1.Items.Add(rd("tenant_id"))
-        End While
-        rd.Close()
-        con.Close()
+        Try
+            con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\apart.mdf;Integrated Security=True"
+            cmd.Connection = con
+            cmd.CommandText = "Select * from [tenant_login] "
+            con.Open()
+            rd = cmd.ExecuteReader
+            While rd.Read
+                ComboBox1.Items.Add(rd("tenant_id"))
+            End While
+            rd.Close()
+            con.Close()
+        Catch ex As Exception
+            MsgBox("invalid command")
+        End Try
+
     End Sub
 End Class

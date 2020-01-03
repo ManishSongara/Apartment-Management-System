@@ -22,47 +22,27 @@ Partial Class Booking_Info
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.HallBooking = New System.Windows.Forms.RadioButton()
-        Me.View = New System.Windows.Forms.Button()
+        Me.components = New System.ComponentModel.Container()
         Me.Back = New System.Windows.Forms.Button()
+        Me.FillByToolStrip = New System.Windows.Forms.ToolStrip()
+        Me.FillByToolStripButton = New System.Windows.Forms.ToolStripButton()
+        Me.EventhallBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ApartDataSet = New Apartment_Management_System.apartDataSet()
+        Me.EventhallTableAdapter = New Apartment_Management_System.apartDataSetTableAdapters.eventhallTableAdapter()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Panel1.SuspendLayout()
+        Me.EventhallBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.DateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PurposeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TenantIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.BlockNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FlatNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.FillByToolStrip.SuspendLayout()
+        CType(Me.EventhallBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ApartDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EventhallBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.HallBooking)
-        Me.Panel1.Location = New System.Drawing.Point(12, 274)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(150, 56)
-        Me.Panel1.TabIndex = 0
-        '
-        'HallBooking
-        '
-        Me.HallBooking.AutoSize = True
-        Me.HallBooking.Location = New System.Drawing.Point(26, 17)
-        Me.HallBooking.Name = "HallBooking"
-        Me.HallBooking.Size = New System.Drawing.Size(108, 21)
-        Me.HallBooking.TabIndex = 1
-        Me.HallBooking.TabStop = True
-        Me.HallBooking.Text = "Hall Booking"
-        Me.HallBooking.UseVisualStyleBackColor = True
-        '
-        'View
-        '
-        Me.View.Location = New System.Drawing.Point(25, 369)
-        Me.View.Name = "View"
-        Me.View.Size = New System.Drawing.Size(121, 39)
-        Me.View.TabIndex = 1
-        Me.View.Text = "View"
-        Me.View.UseVisualStyleBackColor = True
         '
         'Back
         '
@@ -73,78 +53,138 @@ Partial Class Booking_Info
         Me.Back.Text = "Back"
         Me.Back.UseVisualStyleBackColor = True
         '
+        'FillByToolStrip
+        '
+        Me.FillByToolStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.FillByToolStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FillByToolStripButton})
+        Me.FillByToolStrip.Location = New System.Drawing.Point(0, 0)
+        Me.FillByToolStrip.Name = "FillByToolStrip"
+        Me.FillByToolStrip.Size = New System.Drawing.Size(1019, 31)
+        Me.FillByToolStrip.TabIndex = 4
+        Me.FillByToolStrip.Text = "FillByToolStrip"
+        '
+        'FillByToolStripButton
+        '
+        Me.FillByToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.FillByToolStripButton.Name = "FillByToolStripButton"
+        Me.FillByToolStripButton.Size = New System.Drawing.Size(48, 24)
+        Me.FillByToolStripButton.Text = "FillBy"
+        '
+        'EventhallBindingSource
+        '
+        Me.EventhallBindingSource.DataMember = "eventhall"
+        Me.EventhallBindingSource.DataSource = Me.ApartDataSet
+        '
+        'ApartDataSet
+        '
+        Me.ApartDataSet.DataSetName = "apartDataSet"
+        Me.ApartDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'EventhallTableAdapter
+        '
+        Me.EventhallTableAdapter.ClearBeforeFill = True
+        '
         'DataGridView1
         '
+        Me.DataGridView1.AllowUserToOrderColumns = True
+        Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(232, 274)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DateDataGridViewTextBoxColumn, Me.PurposeDataGridViewTextBoxColumn, Me.TenantIDDataGridViewTextBoxColumn, Me.BlockNoDataGridViewTextBoxColumn, Me.FlatNoDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.EventhallBindingSource1
+        Me.DataGridView1.Location = New System.Drawing.Point(165, 167)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(682, 198)
-        Me.DataGridView1.TabIndex = 3
+        Me.DataGridView1.Size = New System.Drawing.Size(714, 313)
+        Me.DataGridView1.TabIndex = 5
         '
-        'Column1
+        'EventhallBindingSource1
         '
-        Me.Column1.HeaderText = "Tenant ID"
-        Me.Column1.MinimumWidth = 6
-        Me.Column1.Name = "Column1"
-        Me.Column1.Width = 125
+        Me.EventhallBindingSource1.DataMember = "eventhall"
+        Me.EventhallBindingSource1.DataSource = Me.ApartDataSet
         '
-        'Column2
+        'DateDataGridViewTextBoxColumn
         '
-        Me.Column2.HeaderText = "Date"
-        Me.Column2.MinimumWidth = 6
-        Me.Column2.Name = "Column2"
-        Me.Column2.Width = 125
+        Me.DateDataGridViewTextBoxColumn.DataPropertyName = "Date"
+        Me.DateDataGridViewTextBoxColumn.HeaderText = "Date"
+        Me.DateDataGridViewTextBoxColumn.MinimumWidth = 3
+        Me.DateDataGridViewTextBoxColumn.Name = "DateDataGridViewTextBoxColumn"
         '
-        'Column3
+        'PurposeDataGridViewTextBoxColumn
         '
-        Me.Column3.HeaderText = "Block Name"
-        Me.Column3.MinimumWidth = 6
-        Me.Column3.Name = "Column3"
-        Me.Column3.Width = 125
+        Me.PurposeDataGridViewTextBoxColumn.DataPropertyName = "Purpose"
+        Me.PurposeDataGridViewTextBoxColumn.HeaderText = "Purpose"
+        Me.PurposeDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.PurposeDataGridViewTextBoxColumn.Name = "PurposeDataGridViewTextBoxColumn"
+        Me.PurposeDataGridViewTextBoxColumn.Width = 200
         '
-        'Column4
+        'TenantIDDataGridViewTextBoxColumn
         '
-        Me.Column4.HeaderText = "Flat Number"
-        Me.Column4.MinimumWidth = 6
-        Me.Column4.Name = "Column4"
-        Me.Column4.Width = 125
+        Me.TenantIDDataGridViewTextBoxColumn.DataPropertyName = "TenantID"
+        Me.TenantIDDataGridViewTextBoxColumn.HeaderText = "TenantID"
+        Me.TenantIDDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.TenantIDDataGridViewTextBoxColumn.Name = "TenantIDDataGridViewTextBoxColumn"
+        Me.TenantIDDataGridViewTextBoxColumn.Width = 75
         '
-        'Column5
+        'BlockNoDataGridViewTextBoxColumn
         '
-        Me.Column5.HeaderText = "Purpose"
-        Me.Column5.MinimumWidth = 6
-        Me.Column5.Name = "Column5"
-        Me.Column5.Width = 125
+        Me.BlockNoDataGridViewTextBoxColumn.DataPropertyName = "BlockNo"
+        Me.BlockNoDataGridViewTextBoxColumn.HeaderText = "BlockNo"
+        Me.BlockNoDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.BlockNoDataGridViewTextBoxColumn.Name = "BlockNoDataGridViewTextBoxColumn"
+        Me.BlockNoDataGridViewTextBoxColumn.Width = 50
+        '
+        'FlatNoDataGridViewTextBoxColumn
+        '
+        Me.FlatNoDataGridViewTextBoxColumn.DataPropertyName = "FlatNo"
+        Me.FlatNoDataGridViewTextBoxColumn.HeaderText = "FlatNo"
+        Me.FlatNoDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.FlatNoDataGridViewTextBoxColumn.Name = "FlatNoDataGridViewTextBoxColumn"
+        Me.FlatNoDataGridViewTextBoxColumn.Width = 50
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(375, 71)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(134, 17)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Hall Booking Details"
         '
         'Booking_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1019, 651)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.FillByToolStrip)
         Me.Controls.Add(Me.Back)
-        Me.Controls.Add(Me.View)
-        Me.Controls.Add(Me.Panel1)
         Me.Name = "Booking_Info"
         Me.Text = "Booking_Info"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.FillByToolStrip.ResumeLayout(False)
+        Me.FillByToolStrip.PerformLayout()
+        CType(Me.EventhallBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ApartDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EventhallBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents View As Button
     Friend WithEvents Back As Button
+    Friend WithEvents ApartDataSet As apartDataSet
+    Friend WithEvents EventhallBindingSource As BindingSource
+    Friend WithEvents EventhallTableAdapter As apartDataSetTableAdapters.eventhallTableAdapter
+    Friend WithEvents FillByToolStrip As ToolStrip
+    Friend WithEvents FillByToolStripButton As ToolStripButton
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents HallBooking As RadioButton
+    Friend WithEvents EventhallBindingSource1 As BindingSource
+    Friend WithEvents DateDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents PurposeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TenantIDDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents BlockNoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents FlatNoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents Label1 As Label
 End Class

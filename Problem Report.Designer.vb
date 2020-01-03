@@ -35,10 +35,9 @@ Partial Class Problem_Report
         Me.t_id = New System.Windows.Forms.MaskedTextBox()
         Me.tname = New System.Windows.Forms.MaskedTextBox()
         Me.f_no = New System.Windows.Forms.MaskedTextBox()
-        Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
-        Me.t_date = New System.Windows.Forms.MaskedTextBox()
         Me.Submit = New System.Windows.Forms.Button()
         Me.complain = New System.Windows.Forms.ComboBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'Logout
@@ -127,19 +126,6 @@ Partial Class Problem_Report
         Me.f_no.Size = New System.Drawing.Size(183, 22)
         Me.f_no.TabIndex = 17
         '
-        'MonthCalendar1
-        '
-        Me.MonthCalendar1.Location = New System.Drawing.Point(112, 399)
-        Me.MonthCalendar1.Name = "MonthCalendar1"
-        Me.MonthCalendar1.TabIndex = 18
-        '
-        't_date
-        '
-        Me.t_date.Location = New System.Drawing.Point(191, 365)
-        Me.t_date.Name = "t_date"
-        Me.t_date.Size = New System.Drawing.Size(183, 22)
-        Me.t_date.TabIndex = 19
-        '
         'Submit
         '
         Me.Submit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
@@ -159,15 +145,21 @@ Partial Class Problem_Report
         Me.complain.Size = New System.Drawing.Size(183, 24)
         Me.complain.TabIndex = 22
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(191, 352)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 22)
+        Me.DateTimePicker1.TabIndex = 23
+        '
         'Problem_Report
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(902, 642)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.complain)
         Me.Controls.Add(Me.Submit)
-        Me.Controls.Add(Me.t_date)
-        Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.f_no)
         Me.Controls.Add(Me.tname)
         Me.Controls.Add(Me.t_id)
@@ -178,7 +170,7 @@ Partial Class Problem_Report
         Me.Controls.Add(Me.TenantID)
         Me.Controls.Add(Me.Logout)
         Me.Controls.Add(Me.Back)
-        'Me.Name = "Problem_Report"
+        ' Me.Name = "Problem_Report"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -194,9 +186,8 @@ Partial Class Problem_Report
     Friend WithEvents t_id As MaskedTextBox
     Friend WithEvents tname As MaskedTextBox
     Friend WithEvents f_no As MaskedTextBox
-    Friend WithEvents MonthCalendar1 As MonthCalendar
-    Friend WithEvents t_date As MaskedTextBox
     Friend WithEvents Submit As Button
     Friend WithEvents complain As ComboBox
     Private Shared ReadOnly [to] As Label
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class

@@ -22,20 +22,33 @@ Partial Class Rent_Info
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PaidPartially = New System.Windows.Forms.RadioButton()
         Me.PaidFully = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.ApartDataSet = New Apartment_Management_System.apartDataSet()
+        Me.RentDetailsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.RentDetailsTableAdapter = New Apartment_Management_System.apartDataSetTableAdapters.RentDetailsTableAdapter()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.HouseentryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.HouseentryTableAdapter = New Apartment_Management_System.apartDataSetTableAdapters.houseentryTableAdapter()
+        Me.PhoneDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TenantIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NoofPersoninFamilyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.BlockNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FlatnoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FlattypeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.RentAmountDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PaymentStatusDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.HouseentryBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Panel1.SuspendLayout()
+        CType(Me.ApartDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RentDetailsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HouseentryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HouseentryBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -89,51 +102,116 @@ Partial Class Rent_Info
         Me.Button2.Text = "Back"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'ApartDataSet
+        '
+        Me.ApartDataSet.DataSetName = "apartDataSet"
+        Me.ApartDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'RentDetailsBindingSource
+        '
+        Me.RentDetailsBindingSource.DataMember = "RentDetails"
+        Me.RentDetailsBindingSource.DataSource = Me.ApartDataSet
+        '
+        'RentDetailsTableAdapter
+        '
+        Me.RentDetailsTableAdapter.ClearBeforeFill = True
+        '
         'DataGridView1
         '
+        Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
-        Me.DataGridView1.Location = New System.Drawing.Point(47, 214)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.PhoneDataGridViewTextBoxColumn, Me.TenantIDDataGridViewTextBoxColumn, Me.NoofPersoninFamilyDataGridViewTextBoxColumn, Me.BlockNoDataGridViewTextBoxColumn, Me.FlatnoDataGridViewTextBoxColumn, Me.FlattypeDataGridViewTextBoxColumn, Me.RentAmountDataGridViewTextBoxColumn, Me.PaymentStatusDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.HouseentryBindingSource1
+        Me.DataGridView1.Location = New System.Drawing.Point(25, 190)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(644, 184)
+        Me.DataGridView1.Size = New System.Drawing.Size(1053, 176)
         Me.DataGridView1.TabIndex = 3
         '
-        'Column1
+        'HouseentryBindingSource
         '
-        Me.Column1.HeaderText = "Tenant ID"
-        Me.Column1.Name = "Column1"
+        Me.HouseentryBindingSource.DataMember = "houseentry"
+        Me.HouseentryBindingSource.DataSource = Me.ApartDataSet
         '
-        'Column2
+        'HouseentryTableAdapter
         '
-        Me.Column2.HeaderText = "Block Name"
-        Me.Column2.Name = "Column2"
+        Me.HouseentryTableAdapter.ClearBeforeFill = True
         '
-        'Column3
+        'PhoneDataGridViewTextBoxColumn
         '
-        Me.Column3.HeaderText = "Flat Number"
-        Me.Column3.Name = "Column3"
+        Me.PhoneDataGridViewTextBoxColumn.DataPropertyName = "Phone"
+        Me.PhoneDataGridViewTextBoxColumn.HeaderText = "Phone"
+        Me.PhoneDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.PhoneDataGridViewTextBoxColumn.Name = "PhoneDataGridViewTextBoxColumn"
+        Me.PhoneDataGridViewTextBoxColumn.Width = 125
         '
-        'Column4
+        'TenantIDDataGridViewTextBoxColumn
         '
-        Me.Column4.HeaderText = "Flat Type"
-        Me.Column4.Name = "Column4"
+        Me.TenantIDDataGridViewTextBoxColumn.DataPropertyName = "TenantID"
+        Me.TenantIDDataGridViewTextBoxColumn.HeaderText = "TenantID"
+        Me.TenantIDDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.TenantIDDataGridViewTextBoxColumn.Name = "TenantIDDataGridViewTextBoxColumn"
+        Me.TenantIDDataGridViewTextBoxColumn.Width = 125
         '
-        'Column5
+        'NoofPersoninFamilyDataGridViewTextBoxColumn
         '
-        Me.Column5.HeaderText = "Rent Amount"
-        Me.Column5.Name = "Column5"
+        Me.NoofPersoninFamilyDataGridViewTextBoxColumn.DataPropertyName = "NoofPersoninFamily"
+        Me.NoofPersoninFamilyDataGridViewTextBoxColumn.HeaderText = "NoofPersoninFamily"
+        Me.NoofPersoninFamilyDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.NoofPersoninFamilyDataGridViewTextBoxColumn.Name = "NoofPersoninFamilyDataGridViewTextBoxColumn"
+        Me.NoofPersoninFamilyDataGridViewTextBoxColumn.Width = 125
         '
-        'Column6
+        'BlockNoDataGridViewTextBoxColumn
         '
-        Me.Column6.HeaderText = "Payment Status"
-        Me.Column6.Name = "Column6"
+        Me.BlockNoDataGridViewTextBoxColumn.DataPropertyName = "BlockNo"
+        Me.BlockNoDataGridViewTextBoxColumn.HeaderText = "BlockNo"
+        Me.BlockNoDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.BlockNoDataGridViewTextBoxColumn.Name = "BlockNoDataGridViewTextBoxColumn"
+        Me.BlockNoDataGridViewTextBoxColumn.Width = 125
+        '
+        'FlatnoDataGridViewTextBoxColumn
+        '
+        Me.FlatnoDataGridViewTextBoxColumn.DataPropertyName = "Flatno"
+        Me.FlatnoDataGridViewTextBoxColumn.HeaderText = "Flatno"
+        Me.FlatnoDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.FlatnoDataGridViewTextBoxColumn.Name = "FlatnoDataGridViewTextBoxColumn"
+        Me.FlatnoDataGridViewTextBoxColumn.Width = 125
+        '
+        'FlattypeDataGridViewTextBoxColumn
+        '
+        Me.FlattypeDataGridViewTextBoxColumn.DataPropertyName = "Flattype"
+        Me.FlattypeDataGridViewTextBoxColumn.HeaderText = "Flattype"
+        Me.FlattypeDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.FlattypeDataGridViewTextBoxColumn.Name = "FlattypeDataGridViewTextBoxColumn"
+        Me.FlattypeDataGridViewTextBoxColumn.Width = 125
+        '
+        'RentAmountDataGridViewTextBoxColumn
+        '
+        Me.RentAmountDataGridViewTextBoxColumn.DataPropertyName = "RentAmount"
+        Me.RentAmountDataGridViewTextBoxColumn.HeaderText = "RentAmount"
+        Me.RentAmountDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.RentAmountDataGridViewTextBoxColumn.Name = "RentAmountDataGridViewTextBoxColumn"
+        Me.RentAmountDataGridViewTextBoxColumn.Width = 125
+        '
+        'PaymentStatusDataGridViewTextBoxColumn
+        '
+        Me.PaymentStatusDataGridViewTextBoxColumn.DataPropertyName = "PaymentStatus"
+        Me.PaymentStatusDataGridViewTextBoxColumn.HeaderText = "PaymentStatus"
+        Me.PaymentStatusDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.PaymentStatusDataGridViewTextBoxColumn.Name = "PaymentStatusDataGridViewTextBoxColumn"
+        Me.PaymentStatusDataGridViewTextBoxColumn.Width = 125
+        '
+        'HouseentryBindingSource1
+        '
+        Me.HouseentryBindingSource1.DataMember = "houseentry"
+        Me.HouseentryBindingSource1.DataSource = Me.ApartDataSet
         '
         'Rent_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1108, 537)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -142,7 +220,11 @@ Partial Class Rent_Info
         Me.Text = "Rent_Info"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.ApartDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RentDetailsBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HouseentryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HouseentryBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -150,13 +232,21 @@ Partial Class Rent_Info
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents PaidFully As RadioButton
     Friend WithEvents PaidPartially As RadioButton
+    Friend WithEvents ApartDataSet As apartDataSet
+    Friend WithEvents RentDetailsBindingSource As BindingSource
+    Friend WithEvents RentDetailsTableAdapter As apartDataSetTableAdapters.RentDetailsTableAdapter
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents HouseentryBindingSource As BindingSource
+    Friend WithEvents HouseentryTableAdapter As apartDataSetTableAdapters.houseentryTableAdapter
+    Friend WithEvents PhoneDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TenantIDDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents NoofPersoninFamilyDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents BlockNoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents FlatnoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents FlattypeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents RentAmountDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents PaymentStatusDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents HouseentryBindingSource1 As BindingSource
 End Class

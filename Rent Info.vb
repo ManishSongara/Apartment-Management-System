@@ -1,5 +1,9 @@
 ﻿Public Class Rent_Info
     Private Sub Rent_Info_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'ApartDataSet.houseentry' table. You can move, or remove it, as needed.
+        Me.HouseentryTableAdapter.Fill(Me.ApartDataSet.houseentry)
+        'TODO: This line of code loads data into the 'ApartDataSet.RentDetails' table. You can move, or remove it, as needed.
+        Me.RentDetailsTableAdapter.Fill(Me.ApartDataSet.RentDetails)
 
     End Sub
 

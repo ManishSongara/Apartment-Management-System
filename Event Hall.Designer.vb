@@ -27,13 +27,14 @@ Partial Class Event_Hall
         Me.BlockNumber = New System.Windows.Forms.Label()
         Me.Datee = New System.Windows.Forms.Label()
         Me.Purpose = New System.Windows.Forms.Label()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox5 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox6 = New System.Windows.Forms.MaskedTextBox()
+        Me.t_id = New System.Windows.Forms.MaskedTextBox()
+        Me.flatn = New System.Windows.Forms.MaskedTextBox()
+        Me.blockno = New System.Windows.Forms.MaskedTextBox()
+        Me.purpose1 = New System.Windows.Forms.MaskedTextBox()
         Me.Back = New System.Windows.Forms.Button()
         Me.Logout = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'TenantID
@@ -86,45 +87,37 @@ Partial Class Event_Hall
         Me.Purpose.TabIndex = 5
         Me.Purpose.Text = "Purpose"
         '
-        'MaskedTextBox1
+        't_id
         '
-        Me.MaskedTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(176, 93)
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(169, 27)
-        Me.MaskedTextBox1.TabIndex = 6
+        Me.t_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.t_id.Location = New System.Drawing.Point(176, 93)
+        Me.t_id.Name = "t_id"
+        Me.t_id.Size = New System.Drawing.Size(169, 27)
+        Me.t_id.TabIndex = 6
         '
-        'MaskedTextBox2
+        'flatn
         '
-        Me.MaskedTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(176, 210)
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(169, 27)
-        Me.MaskedTextBox2.TabIndex = 7
+        Me.flatn.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.flatn.Location = New System.Drawing.Point(176, 210)
+        Me.flatn.Name = "flatn"
+        Me.flatn.Size = New System.Drawing.Size(169, 27)
+        Me.flatn.TabIndex = 7
         '
-        'MaskedTextBox4
+        'blockno
         '
-        Me.MaskedTextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(176, 155)
-        Me.MaskedTextBox4.Name = "MaskedTextBox4"
-        Me.MaskedTextBox4.Size = New System.Drawing.Size(169, 27)
-        Me.MaskedTextBox4.TabIndex = 9
+        Me.blockno.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blockno.Location = New System.Drawing.Point(176, 155)
+        Me.blockno.Name = "blockno"
+        Me.blockno.Size = New System.Drawing.Size(169, 27)
+        Me.blockno.TabIndex = 9
         '
-        'MaskedTextBox5
+        'purpose1
         '
-        Me.MaskedTextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox5.Location = New System.Drawing.Point(176, 257)
-        Me.MaskedTextBox5.Name = "MaskedTextBox5"
-        Me.MaskedTextBox5.Size = New System.Drawing.Size(169, 27)
-        Me.MaskedTextBox5.TabIndex = 10
-        '
-        'MaskedTextBox6
-        '
-        Me.MaskedTextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBox6.Location = New System.Drawing.Point(176, 304)
-        Me.MaskedTextBox6.Name = "MaskedTextBox6"
-        Me.MaskedTextBox6.Size = New System.Drawing.Size(169, 27)
-        Me.MaskedTextBox6.TabIndex = 11
+        Me.purpose1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.purpose1.Location = New System.Drawing.Point(176, 304)
+        Me.purpose1.Name = "purpose1"
+        Me.purpose1.Size = New System.Drawing.Size(169, 27)
+        Me.purpose1.TabIndex = 11
         '
         'Back
         '
@@ -146,18 +139,35 @@ Partial Class Event_Hall
         Me.Logout.Text = "Logout"
         Me.Logout.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(167, 410)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(178, 57)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(176, 254)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 22)
+        Me.DateTimePicker1.TabIndex = 15
+        '
         'Event_Hall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(823, 685)
+        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Logout)
         Me.Controls.Add(Me.Back)
-        Me.Controls.Add(Me.MaskedTextBox6)
-        Me.Controls.Add(Me.MaskedTextBox5)
-        Me.Controls.Add(Me.MaskedTextBox4)
-        Me.Controls.Add(Me.MaskedTextBox2)
-        Me.Controls.Add(Me.MaskedTextBox1)
+        Me.Controls.Add(Me.purpose1)
+        Me.Controls.Add(Me.blockno)
+        Me.Controls.Add(Me.flatn)
+        Me.Controls.Add(Me.t_id)
         Me.Controls.Add(Me.Purpose)
         Me.Controls.Add(Me.Datee)
         Me.Controls.Add(Me.BlockNumber)
@@ -175,11 +185,12 @@ Partial Class Event_Hall
     Friend WithEvents BlockNumber As Label
     Friend WithEvents Datee As Label
     Friend WithEvents Purpose As Label
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
-    Friend WithEvents MaskedTextBox2 As MaskedTextBox
-    Friend WithEvents MaskedTextBox4 As MaskedTextBox
-    Friend WithEvents MaskedTextBox5 As MaskedTextBox
-    Friend WithEvents MaskedTextBox6 As MaskedTextBox
+    Friend WithEvents t_id As MaskedTextBox
+    Friend WithEvents flatn As MaskedTextBox
+    Friend WithEvents blockno As MaskedTextBox
+    Friend WithEvents purpose1 As MaskedTextBox
     Friend WithEvents Back As Button
     Friend WithEvents Logout As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class
