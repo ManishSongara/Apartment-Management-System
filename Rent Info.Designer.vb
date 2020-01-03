@@ -43,6 +43,7 @@ Partial Class Rent_Info
         Me.RentAmountDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PaymentStatusDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.HouseentryBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.ApartDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RentDetailsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -207,11 +208,22 @@ Partial Class Rent_Info
         Me.HouseentryBindingSource1.DataMember = "houseentry"
         Me.HouseentryBindingSource1.DataSource = Me.ApartDataSet
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 28.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(347, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(445, 64)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Rent Information"
+        '
         'Rent_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1108, 537)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -226,6 +238,7 @@ Partial Class Rent_Info
         CType(Me.HouseentryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.HouseentryBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -249,4 +262,5 @@ Partial Class Rent_Info
     Friend WithEvents RentAmountDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents PaymentStatusDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents HouseentryBindingSource1 As BindingSource
+    Friend WithEvents Label1 As Label
 End Class
